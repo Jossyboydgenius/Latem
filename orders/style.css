@@ -1855,7 +1855,7 @@
   left: 15px;
   font-family: "Inter", Helvetica;
   font-weight: 600;
-  color: #ffffff;
+  color: black;
   font-size: 15px;
   letter-spacing: 0;
   line-height: normal;
@@ -2009,8 +2009,9 @@
   height: 33px;
   top: 230px;
   left: 263px;
-  background-color: #d9d9d9;
+  /* background-color: #d9d9d9; */
   border-radius: 12.5px;
+  cursor: pointer;
 }
 
 .element .text-wrapper-86 {
@@ -2314,4 +2315,47 @@
   font-size: 17px;
   letter-spacing: 0;
   line-height: normal;
+}
+.group-11 .overlap-10,
+.group-12 .overlap-11,
+.group-13 .overlap-12,
+.group-14 .overlap-12,
+.group-15 .overlap-13,
+.group-16 .overlap-14,
+.group-17 .overlap-15,
+.group-18 .overlap-16 {
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
+
+.selected .overlap-10,
+.selected .overlap-11,
+.selected .overlap-12,
+.selected .overlap-13,
+.selected .overlap-14,
+.selected .overlap-15,
+.selected .overlap-16 {
+  background-color: #2f69ff;
+}
+
+.selected .text-wrapper-83,
+.selected .text-wrapper-84,
+.selected .text-wrapper-85 {
+  color: white;
+}
+
+.text-wrapper-86,
+.text-wrapper-87,
+.text-wrapper-88,
+.text-wrapper-89,
+.text-wrapper-90,
+.text-wrapper-91,
+.text-wrapper-92,
+.text-wrapper-93,
+.text-wrapper-94,
+.text-wrapper-95,
+.text-wrapper-96,
+.text-wrapper-97 {
+  position: absolute;
+  cursor: pointer;
 }
