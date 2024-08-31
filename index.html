@@ -18,8 +18,8 @@
           <div class="text-wrapper-3">Connection:</div>
           <div class="text-wrapper-4">Total Active Tables:</div>
           <div class="text-wrapper-5">Total Items:</div>
-          <div class="text-wrapper-6">19:20</div>
-          <div class="text-wrapper-7">September 21st</div>
+          <div id="current-time" class="text-wrapper-6"></div>
+          <div id="current-date" class="text-wrapper-7"></div>
           <div class="text-wrapper-8">Good</div>
           <div class="text-wrapper-9">Active</div>
           <div class="text-wrapper-10">Active</div>
@@ -280,6 +280,30 @@
 
     <!-- JavaScript for Lock Screen Functionality -->
     <script>
+      function updateTimeAndDate() {
+              const now = new Date();
+              
+              // Format time as HH:MM
+              const hours = String(now.getHours()).padStart(2, '0');
+              const minutes = String(now.getMinutes()).padStart(2, '0');
+              const currentTime = `${hours}:${minutes}`;
+              
+              // Format date as Month Day, Year
+              const options = { month: 'long', day: 'numeric', year: 'numeric' };
+              const currentDate = now.toLocaleDateString(undefined, options);
+              
+              // Update the HTML elements
+              document.getElementById('current-time').textContent = currentTime;
+              document.getElementById('current-date').textContent = currentDate;
+            }
+
+            // Update time and date immediately
+            updateTimeAndDate();
+
+            // Update time and date every minute
+            setInterval(updateTimeAndDate, 60000);
+
+            // Lock screen functionality
       document.addEventListener("DOMContentLoaded", function() {
         const powerIcon = document.querySelector(".power");
         const lockScreenElements = [
