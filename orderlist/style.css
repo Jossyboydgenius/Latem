@@ -2161,6 +2161,27 @@
   background-color: #d9d9d9;
   border-radius: 9px;
 }
+.element .overlap-61 {
+  position: relative;
+  width: 121px;
+  height: 47px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+}
+.element .overlap-62 {
+  position: relative;
+  width: 121px;
+  height: 47px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+}
+.element .overlap-63 {
+  position: relative;
+  width: 121px;
+  height: 47px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+}
 
 .element .text-wrapper-92 {
   width: 97px;
@@ -2183,7 +2204,83 @@
   left: 462px;
 }
 
+.element .group-47 {
+  position: absolute;
+  width: 123px;
+  height: 47px;
+  top: 670px;
+  left: 462px;
+}
+
+.element .group-48 {
+  position: absolute;
+  width: 123px;
+  height: 47px;
+  top: 470px;
+  left: 462px;
+}
+
+.element .group-49 {
+  position: absolute;
+  width: 123px;
+  height: 47px;
+  top: 470px;
+  left: 462px;
+}
+
+.element .group-50 {
+  position: absolute;
+  width: 143px;
+  height: 47px;
+  top: 470px;
+  left: 462px;
+}
+
+.element .group-50 {
+  position: absolute;
+  width: 123px;
+  height: 47px;
+  top: 470px;
+  left: 462px;
+}
+
 .element .text-wrapper-93 {
+  width: 94px;
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.element .text-wrapper-99 {
+  width: 94px;
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.element .text-wrapper-97 {
+  width: 94px;
+  position: absolute;
+  top: 14px;
+  left: -400px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.element .text-wrapper-98 {
   width: 94px;
   position: absolute;
   top: 14px;
@@ -2763,6 +2860,34 @@
   display: none;
 }
 
-.drinks-items {
-  display: none; /* Hide drink items by default */
+.drinks-items,
+.appetizers-items {
+  display: none; /* Hide items by default */
+}
+
+.group-34 .overlap-55,
+.group-35 .overlap-56,
+.group-36 .overlap-57,
+.group-37 .overlap-58 {
+    position: relative;
+    width: 100%;
+    height: 47px;
+    background-color: #d9d9d9;
+    border-radius: 9px;
+}
+
+.group-34 .text-wrapper-91,
+.group-35 .text-wrapper-91,
+.group-36 .text-wrapper-91,
+.group-37 .text-wrapper-91 {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
 }
