@@ -2359,3 +2359,84 @@
   position: absolute;
   cursor: pointer;
 }
+
+.menu-category {
+  display: none; /* Initially hide all categories */
+}
+
+.menu-category.active {
+  display: block; /* Show the active category */
+}
+
+/* Existing styles */
+.group-11 .overlap-10,
+.group-12 .overlap-11,
+.group-13 .overlap-12,
+.group-14 .overlap-12,
+.group-15 .overlap-13,
+.group-16 .overlap-14,
+.group-17 .overlap-15,
+.group-18 .overlap-16 {
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
+
+.selected .overlap-10,
+.selected .overlap-11,
+.selected .overlap-12,
+.selected .overlap-13,
+.selected .overlap-14,
+.selected .overlap-15,
+.selected .overlap-16 {
+  background-color: #2f69ff;
+}
+
+.selected .text-wrapper-83,
+.selected .text-wrapper-84,
+.selected .text-wrapper-85 {
+  color: white;
+}
+.menu-category {
+  display: none;
+}
+
+.menu-category.active {
+  display: block;
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.menu-item.selected {
+  background-color: #d9d9d9;
+  border-radius: 12.5px;
+}
+
+/* Button styles */
+.overlap-17 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Button background color */
+  color: #ffffff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.overlap-17:hover {
+  background-color: #0056b3; /* Button hover color */
+}
+
+.text-wrapper-98, .text-wrapper-99 {
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: inherit; /* Inherit color from parent */
+}
