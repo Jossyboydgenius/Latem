@@ -62,6 +62,9 @@
           <div class="text-wrapper-15">Order Management</div>
           <div class="text-wrapper-16">Options</div>
           <p class="p">Select an Order to Edit</p>
+          <div class="selected-order-details">
+           <span class="close-button">x</span>
+            </div>
           <img class="line-10" src="https://c.animaapp.com/dTPxXaJm/img/line-80.svg" alt="Line 10" />
           <div class="group">
             <div class="div-wrapper">
@@ -281,56 +284,60 @@
 
     <!-- JavaScript for Lock Screen Functionality -->
     <script>
-                        document.addEventListener("DOMContentLoaded", function() {
-              const checkboxes = document.querySelectorAll(".rectangle-3, .rectangle-4, .rectangle-5");
-              const selectOrderText = document.querySelector(".p"); // Updated selector
-              const selectedOrderDetails = document.querySelector(".selected-order-details");
-            
-              checkboxes.forEach(checkbox => {
-                checkbox.addEventListener("change", function() {
-                  const parentGroup = checkbox.closest(".group-7, .group-11");
-                  const rectangle = parentGroup.querySelector(".rectangle-2");
-            
-                  if (checkbox.checked) {
-                    rectangle.style.borderColor = "#0081f8";
-                    selectOrderText.style.display = "none";
-                    selectedOrderDetails.innerHTML = parentGroup.innerHTML;
-                    selectedOrderDetails.style.display = "block";
-                  } else {
-                    rectangle.style.borderColor = "#000000";
-                    if (![...checkboxes].some(cb => cb.checked)) {
-                      selectOrderText.style.display = "block";
-                      selectedOrderDetails.style.display = "none";
-                    }
-                  }
-                });
-              });
-            });
-  
-      function updateTimeAndDate() {
-              const now = new Date();
-              
-              // Format time as HH:MM
-              const hours = String(now.getHours()).padStart(2, '0');
-              const minutes = String(now.getMinutes()).padStart(2, '0');
-              const currentTime = `${hours}:${minutes}`;
-              
-              // Format date as Month Day, Year
-              const options = { month: 'long', day: 'numeric', year: 'numeric' };
-              const currentDate = now.toLocaleDateString(undefined, options);
-              
-              // Update the HTML elements
-              document.getElementById('current-time').textContent = currentTime;
-              document.getElementById('current-date').textContent = currentDate;
+            document.addEventListener("DOMContentLoaded", function() {
+        const checkboxes = document.querySelectorAll(".rectangle-3, .rectangle-4, .rectangle-5");
+        const selectOrderText = document.querySelector(".p");
+        const selectedOrderDetails = document.querySelector(".selected-order-details");
+        const closeButton = document.querySelector(".close-button");
+      
+        checkboxes.forEach(checkbox => {
+          checkbox.addEventListener("change", function() {
+            const parentGroup = checkbox.closest(".group-7, .group-11");
+            const rectangle = parentGroup.querySelector(".rectangle-2");
+      
+            if (checkbox.checked) {
+              rectangle.style.borderColor = "#0081f8";
+              selectOrderText.style.display = "none";
+              selectedOrderDetails.innerHTML = parentGroup.innerHTML + '<span class="close-button">x</span>';
+              selectedOrderDetails.style.display = "block";
+            } else {
+              rectangle.style.borderColor = "#000000";
+              if (![...checkboxes].some(cb => cb.checked)) {
+                selectOrderText.style.display = "block";
+                selectedOrderDetails.style.display = "none";
+              }
             }
+          });
+        });
+      
+        document.addEventListener("click", function(event) {
+          if (event.target.classList.contains("close-button")) {
+            selectedOrderDetails.style.display = "none";
+            selectOrderText.style.display = "block";
+            checkboxes.forEach(checkbox => {
+              checkbox.checked = false;
+              const parentGroup = checkbox.closest(".group-7, .group-11");
+              const rectangle = parentGroup.querySelector(".rectangle-2");
+              rectangle.style.borderColor = "#000000";
+            });
+          }
+        });
+      });
 
-            // Update time and date immediately
-            updateTimeAndDate();
+      function updateTimeAndDate() {
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const currentTime = `${hours}:${minutes}`;
+        const options = { month: 'long', day: 'numeric', year: 'numeric' };
+        const currentDate = now.toLocaleDateString(undefined, options);
+        document.getElementById('current-time').textContent = currentTime;
+        document.getElementById('current-date').textContent = currentDate;
+      }
 
-            // Update time and date every minute
-            setInterval(updateTimeAndDate, 60000);
+      updateTimeAndDate();
+      setInterval(updateTimeAndDate, 60000);
 
-            // Lock screen functionality
       document.addEventListener("DOMContentLoaded", function() {
         const powerIcon = document.querySelector(".power");
         const lockScreenElements = [
@@ -348,7 +355,6 @@
           ".total"
         ];
 
-        // Initially hide lock screen elements
         lockScreenElements.forEach(selector => {
           const element = document.querySelector(selector);
           if (element) {
@@ -357,13 +363,11 @@
         });
 
         powerIcon.addEventListener("click", function() {
-          // Hide specified elements
           hideElements.forEach(selector => {
             const el = document.querySelector(selector);
             if (el) el.style.display = "none";
           });
 
-          // Show lock screen elements
           lockScreenElements.forEach(selector => {
             const el = document.querySelector(selector);
             if (el) el.style.display = "block";
