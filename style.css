@@ -1528,3 +1528,34 @@
   background-color: black; /* Adjust color as needed */
   margin-left: 10px; /* Adjust spacing as needed */
 }
+
+.order-edit-placeholder {
+  position: relative;
+  margin-top: 20px;
+}
+
+.select-order-text {
+  font-size: 16px;
+  color: #000;
+}
+
+.selected-order-details {
+  display: none;
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.selected-order-details {
+  position: absolute;
+  top: 295px; /* Same as .p */
+  left: 95px; /* Same as .p */
+  display: none; /* Initially hidden */
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
