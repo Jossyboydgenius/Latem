@@ -16,8 +16,8 @@
           <div class="text-wrapper-2">Connection:</div>
           <div class="text-wrapper-3">Total Active Tables:</div>
           <div class="text-wrapper-4">Total Items:</div>
-          <div class="text-wrapper-5">19:20</div>
-          <div class="text-wrapper-6">September 21st</div>
+          <div id="current-time" class="text-wrapper-5"></div>
+          <div id="current-date" class="text-wrapper-6"></div>
           <div class="text-wrapper-7">Good</div>
           <div class="text-wrapper-8">Active</div>
           <div class="text-wrapper-9">Active</div>
@@ -373,6 +373,7 @@
           <img class="line-42" src="https://c.animaapp.com/fYZgYs2E/img/line-108.svg" />
           <img class="line-43" src="https://c.animaapp.com/fYZgYs2E/img/line-108.svg" />
 
+         <!-- Drinks items -->
           <div class="group-11 drinks-items" onclick="toggleHighlight(this)">
             <div class="overlap-35"><div class="text-wrapper-91">Sparkling Water</div></div>
           </div>
@@ -481,30 +482,104 @@
           <div class="group-46" onclick="toggleSelected(this)">
             <div class="overlap-60"><div class="text-wrapper-96">Preview</div></div>
           </div>
+
+          <!-- Appetizers items -->
+          <div class="group-47 appetizers-items" onclick="toggleHighlight(this)">
+            <div class="overlap-38"><div class="text-wrapper-94">Pickle Board</div></div>
+          </div>
+          <div class="group-48 appetizers-items" onclick="toggleHighlight(this)">
+            <div class="overlap-38"><div class="text-wrapper-94">Sulguni</div></div>
+          </div>
+          <div class="group-49 appetizers-items" onclick="toggleHighlight(this)">
+            <div class="overlap-38"><div class="text-wrapper-94">Imeretian Cheese</div></div>
+          </div>
+          <div class="group-50 appetizers-items" onclick="toggleHighlight(this)">
+            <div class="overlap-38"><div class="text-wrapper-94">Imeretian Cheese</div></div>
+          </div>
+          <div class="group-51 appetizers-items" onclick="toggleHighlight(this)">
+            <div class="overlap-48"><div class="text-wrapper-91">Georgian Cheese Board</div></div>
+        </div>
+        <div class="group-28 appetizers-items" onclick="toggleHighlight(this)">
+            <div class="overlap-49"><div class="text-wrapper-91">Imeretian Cheese</div></div>
+        </div>
+        <div class="group-29 appetizers-items" onclick="toggleHighlight(this)">
+            <div class="overlap-50"><div class="text-wrapper-91">Imeretian Cheese</div></div>
+        </div>
+        <div class="group-30 appetizers-items" onclick="toggleHighlight(this)">
+            <div class="overlap-51"><div class="text-wrapper-91">Sulguni</div></div>
+        </div>
+        <div class="group-32 appetizers-items" onclick="toggleHighlight(this)">
+            <div class="overlap-53"><div class="text-wrapper-91">Grated Cheese with Mint</div></div>
+        </div>
+        <div class="group-33 appetizers-items" onclick="toggleHighlight(this)">
+            <div class="overlap-54"><div class="text-wrapper-91">Eggplant with Walnuts</div></div>
+        </div>
+        
+        <!-- Salad Items -->
+        <div class="group-34 salad-items" onclick="toggleHighlight(this)">
+            <div class="overlap-55"><div class="text-wrapper-91">Green Salad</div></div>
+        </div>
+        <div class="group-35 salad-items" onclick="toggleHighlight(this)">
+            <div class="overlap-56"><div class="text-wrapper-91">Cucumber-Tomato Salad / Walnuts</div></div>
+        </div>
+        <div class="group-36 salad-items" onclick="toggleHighlight(this)">
+            <div class="overlap-57"><div class="text-wrapper-91">Caesar Salad</div></div>
+        </div>
+        <div class="group-37 salad-items" onclick="toggleHighlight(this)">
+            <div class="overlap-58"><div class="text-wrapper-91">Salad with Arugula</div></div>
+        </div>
+        
+        <div class="group-45" onclick="toggleSelected(this)">
+            <div class="overlap-60"><div class="text-wrapper-95">Continue</div></div>
+        </div>
+        <div class="group-46" onclick="toggleSelected(this)">
+            <div class="overlap-60"><div class="text-wrapper-96">Preview</div></div>
+        </div>
           <script>
             function toggleHighlight(element) {
               element.classList.toggle('selected');
             }
-            
+
             function toggleSelected(element) {
               // Remove 'selected' class from all buttons
               const buttons = document.querySelectorAll('button');
               buttons.forEach(button => button.classList.remove('selected'));
-            
+
               // Add 'selected' class to the clicked button
               element.classList.add('selected');
-              
+
               // Get the selected category
               const category = element.getAttribute('data-category');
-              
-              // Show or hide drink items based on the selected category
-              const drinkItems = document.querySelectorAll('.drinks-items');
-              if (category === 'drinks') {
-                drinkItems.forEach(item => item.style.display = 'block');
-              } else {
-                drinkItems.forEach(item => item.style.display = 'none');
-              }
+
+              // Show or hide items based on the selected category
+              const allItems = document.querySelectorAll('.drinks-items, .appetizers-items');
+              allItems.forEach(item => item.style.display = 'none');
+
+              const selectedItems = document.querySelectorAll(`.${category}-items`);
+              selectedItems.forEach(item => item.style.display = 'block');
             }
+            function updateTimeAndDate() {
+    const now = new Date();
+    
+    // Format time as HH:MM
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    const currentTime = `${hours}:${minutes}`;
+    
+    // Format date as Month Day, Year
+    const options = { month: 'long', day: 'numeric', year: 'numeric' };
+    const currentDate = now.toLocaleDateString(undefined, options);
+    
+    // Update the HTML elements
+    document.getElementById('current-time').textContent = currentTime;
+    document.getElementById('current-date').textContent = currentDate;
+  }
+
+  // Update time and date immediately
+  updateTimeAndDate();
+
+  // Update time and date every minute
+  setInterval(updateTimeAndDate, 60000);
           </script>
         </div>
       </div>
