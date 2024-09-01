@@ -1529,6 +1529,27 @@
   margin-left: 10px; /* Adjust spacing as needed */
 }
 
+.group, .overlap-wrapper, .overlap-group-wrapper, .group-2, .group-3, .group-4, .group-5, .group-6 {
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.group:hover .div-wrapper,
+.overlap-wrapper:hover .overlap-2,
+.overlap-group-wrapper:hover .overlap-3,
+.group-2:hover .overlap-4,
+.group-3:hover .overlap-4,
+.group-4:hover .overlap-5 {
+  background-color: #f0f0f0; /* Change to desired hover color */
+  border-color: #0081f8; /* Change to desired hover border color */
+}
+
+
+.group-5:hover .overlap-6,
+.group-6:hover .overlap-7 {
+  border-color: #ff0000; /* Change to desired hover border color */
+}
+
 .selected-order-details {
   position: absolute;
   top: 90px; /* Same as .p */
@@ -1545,9 +1566,9 @@
 
 .close-button {
   position: absolute;
-  top: 15px; /* Adjust as needed */
-  right: 15px; /* Adjust as needed */
-  font-size: 25px;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  font-size: 20px;
   font-weight: bold;
   color: #d3d3d3; /* Light grey color for the close button */
   cursor: pointer;
