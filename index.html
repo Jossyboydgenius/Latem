@@ -344,10 +344,21 @@
         const hours = String(now.getHours()).padStart(2, '0');
         const minutes = String(now.getMinutes()).padStart(2, '0');
         const currentTime = `${hours}:${minutes}`;
-        const options = { month: 'long', day: 'numeric', year: 'numeric' };
-        const currentDate = now.toLocaleDateString(undefined, options);
+        const options = { month: 'long' };
+        const currentMonth = now.toLocaleDateString(undefined, options);
+        const day = now.getDate();
+        const daySuffix = (day) => {
+          if (day > 3 && day < 21) return 'th';
+          switch (day % 10) {
+            case 1: return 'st';
+            case 2: return 'nd';
+            case 3: return 'rd';
+            default: return 'th';
+          }
+        };
+        const formattedDate = `${currentMonth} ${day}${daySuffix(day)}`;
         document.getElementById('current-time').textContent = currentTime;
-        document.getElementById('current-date').textContent = currentDate;
+        document.getElementById('current-date').textContent = formattedDate;
       }
 
       updateTimeAndDate();
