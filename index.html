@@ -105,7 +105,7 @@
             <div class="overlap-7">
               <div class="text-wrapper-21">End Order</div>
             </div>
-          </div>
+        </div>
           <img class="line-11" src="https://c.animaapp.com/dTPxXaJm/img/line-81.svg" alt="Line 11" />
           <div class="text-wrapper-22">77.80₾</div>
           <div class="text-wrapper-23">Total:</div>
@@ -284,11 +284,12 @@
 
     <!-- JavaScript for Lock Screen Functionality -->
     <script>
-            document.addEventListener("DOMContentLoaded", function() {
+          document.addEventListener("DOMContentLoaded", function() {
         const checkboxes = document.querySelectorAll(".rectangle-3, .rectangle-4, .rectangle-5");
         const selectOrderText = document.querySelector(".p");
         const selectedOrderDetails = document.querySelector(".selected-order-details");
         const closeButton = document.querySelector(".close-button");
+        const buttons = document.querySelectorAll(".group, .overlap-wrapper, .overlap-group-wrapper, .group-2, .group-3, .group-4, .group-5, .group-6");
       
         checkboxes.forEach(checkbox => {
           checkbox.addEventListener("change", function() {
