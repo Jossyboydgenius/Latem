@@ -323,19 +323,6 @@
   left: 0;
 }
 
-.element .text-wrapper-13 {
-  position: absolute;
-  top: 646px;
-  left: 36px;
-  font-family: "Inter", Helvetica;
-  font-weight: 600;
-  color: #23ff00;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
 .element .imeruli-khachapuri {
   position: absolute;
   top: 696px;
@@ -476,18 +463,6 @@
   top: 0;
   left: 970px;
   object-fit: cover;
-}
-
-.element .rectangle {
-  position: absolute;
-  width: 970px;
-  height: 421px;
-  top: 607px;
-  left: 0;
-  background-color: #000000;
-  backdrop-filter: blur(4px) brightness(100%);
-  -webkit-backdrop-filter: blur(4px) brightness(100%);
-  opacity: 0.9;
 }
 
 .element .text-wrapper-14 {
@@ -1573,4 +1548,91 @@
   font-weight: bold;
   color: #d3d3d3; /* Light grey color for the close button */
   cursor: pointer;
+}
+
+.element .overlap {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 52px); /* Adjust based on your navbar height */
+  overflow: hidden;
+}
+
+.element .overlap-group {
+  position: absolute;
+  width: 971px;
+  height: 1028px;
+  top: 52px;
+  left: 0;
+}
+
+.element .overlap-group-left {
+  position: absolute;
+  width: 971px;
+  height: 1028px;
+  top: 52px;
+  right: 0;
+}
+.element .tables-container {
+  position: absolute;
+  top: 100px; /* Adjust based on your design */
+  left: 80px; /* Adjust based on your design */
+  width: calc(100% - 110px); /* Adjust based on your design */
+  height: calc(100vh - 120px); /* Adjust based on your design */
+  overflow-y: auto; /* Ensure vertical scrolling */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  display: flex;
+  flex-wrap: wrap; /* Ensure items are stacked vertically */
+  gap: 20px; /* Adjust the gap between tables */
+}
+
+.element .group-7 {
+  position: relative;
+  width: calc(50% - 10px); /* 50% width minus half of the gap */
+  height: auto; /* Adjust height based on content */
+  margin-bottom: 20px; /* Space between rows */
+}
+
+.element .rectangle-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 18px;
+  border: 3px solid;
+  border-color: #000000;
+  cursor: pointer;
+}
+
+/* Add any additional styles for table content here */
+.text-wrapper-25, .text-wrapper-26, .text-wrapper-28, .text-wrapper-29, .text-wrapper-30, .text-wrapper-31, .text-wrapper-32, .text-wrapper-33, .text-wrapper-34, .text-wrapper-40, .text-wrapper-41, .text-wrapper-42, .text-wrapper-43, .text-wrapper-44, .text-wrapper-45, .text-wrapper-46, .text-wrapper-47, .text-wrapper-48, .text-wrapper-49, .text-wrapper-50, .text-wrapper-51, .text-wrapper-55, .text-wrapper-53 {
+  position: absolute;
+  /* Add your specific styles for these text elements */
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the gap between items */
+  margin-top: 20px; /* Adjust based on your design */
+}
+
+.text-wrapper-27 {
+  display: flex;
+  align-items: center;
+}
+
+.text-wrapper-27 input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.text-wrapper-27.checked {
+  text-decoration: line-through;
+}
+
+.checked-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the gap between checked items */
 }
