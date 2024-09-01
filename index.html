@@ -284,18 +284,19 @@
 
     <!-- JavaScript for Lock Screen Functionality -->
     <script>
-          document.addEventListener("DOMContentLoaded", function() {
+      document.addEventListener("DOMContentLoaded", function() {
         const checkboxes = document.querySelectorAll(".rectangle-3, .rectangle-4, .rectangle-5");
         const selectOrderText = document.querySelector(".p");
         const selectedOrderDetails = document.querySelector(".selected-order-details");
         const closeButton = document.querySelector(".close-button");
         const buttons = document.querySelectorAll(".group, .overlap-wrapper, .overlap-group-wrapper, .group-2, .group-3, .group-4, .group-5, .group-6");
-      
+        const rectangles = document.querySelectorAll(".rectangle-2");
+
         checkboxes.forEach(checkbox => {
           checkbox.addEventListener("change", function() {
             const parentGroup = checkbox.closest(".group-7, .group-11");
             const rectangle = parentGroup.querySelector(".rectangle-2");
-      
+
             if (checkbox.checked) {
               rectangle.style.borderColor = "#0081f8";
               selectOrderText.style.display = "none";
@@ -310,7 +311,20 @@
             }
           });
         });
-      
+
+        rectangles.forEach(rectangle => {
+          rectangle.addEventListener("click", function() {
+            const parentGroup = rectangle.closest(".group-7, .group-11");
+            const checkbox = parentGroup.querySelector(".rectangle-3, .rectangle-4, .rectangle-5");
+
+            checkbox.checked = true;
+            rectangle.style.borderColor = "#0081f8";
+            selectOrderText.style.display = "none";
+            selectedOrderDetails.innerHTML = parentGroup.innerHTML + '<span class="close-button">x</span>';
+            selectedOrderDetails.style.display = "block";
+          });
+        });
+
         document.addEventListener("click", function(event) {
           if (event.target.classList.contains("close-button")) {
             selectedOrderDetails.style.display = "none";
