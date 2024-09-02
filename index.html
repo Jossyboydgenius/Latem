@@ -64,7 +64,7 @@
             <img class="line-10" src="https://c.animaapp.com/dTPxXaJm/img/line-80.svg" alt="Line 10" />
             <div class="group">
               <div class="div-wrapper">
-                <div class="text-wrapper-17">Add a New Order</div>
+                <div class="text-wrapper-17" onclick="showTable()">Add a New Order</div>
               </div>
             </div>
             <div class="overlap-wrapper">
@@ -73,8 +73,8 @@
               </div>
             </div>
             <div class="overlap-group-wrapper">
-              <div class="overlap-3">
-                <div class="text-wrapper-19">Delete an Item</div>
+                  <div class="overlap-3">
+                <div class="text-wrapper-19" onclick="showAdminAccess()">Delete an Item</div>
               </div>
             </div>
             <div class="group-2">
@@ -89,8 +89,8 @@
             </div>
           </div>
             <div class="group-4">
-              <div class="overlap-5">
-                <div class="text-wrapper-19">Modify</div>
+               <div class="overlap-7">
+                <div class="text-wrapper-21" onclick="showAdminAccess()">End Order</div>
               </div>
             </div>
             <div class="group-5">
@@ -100,7 +100,7 @@
             </div>
             <div class="group-6">
               <div class="overlap-7">
-                <div class="text-wrapper-21">End Order</div>
+                <div class="text-wrapper-21" onclick="showAdminAccess()">End Order</div>
               </div>
             </div>
             <img class="line-11" src="https://c.animaapp.com/dTPxXaJm/img/line-81.svg" alt="Line 11" />
@@ -124,6 +124,38 @@
 
     <!-- JavaScript for Lock Screen Functionality -->
     <script>
+
+function showTable() {
+        // Fetch and load tables.html
+        fetch('tables/tables.html')
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Network response was not ok');
+            }
+            return response.text();
+          })
+          .then(data => {
+            const tableContainer = document.createElement('div');
+            tableContainer.innerHTML = data;
+            tableContainer.id = 'table-container';
+            tableContainer.style.position = 'fixed';
+            tableContainer.style.top = '0';
+            tableContainer.style.left = '0';
+            tableContainer.style.width = '100%';
+            tableContainer.style.height = '100%';
+            tableContainer.style.backgroundColor = 'rgba(0, 0, 0, 0)'; // Optional: to add a semi-transparent background
+            tableContainer.style.zIndex = '1000'; // Ensure it is on top
+            document.body.appendChild(tableContainer);
+
+            // Load tables/style.css
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = 'tables/style.css';
+            document.head.appendChild(link);
+          })
+          .catch(error => console.error('Error loading tables.html:', error));
+      }
+
       function showAdminAccess() {
         // Fetch and load adminaccess.html
         fetch('adminaccess/adminaccess.html')
