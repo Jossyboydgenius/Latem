@@ -113,53 +113,26 @@
 
     <!-- JavaScript for Lock Screen Functionality -->
     <script>
-      // Function to load CSS
-      function loadCSS(url) {
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = url;
-        document.head.appendChild(link);
-      }
-  
-      // Function to show lockscreen
-      function showLockscreen() {
-        // Fetch and load lockscreen.html
-        fetch('lockscreen/lockscreen.html')
-          .then(response => response.text())
-          .then(data => {
-            const lockscreenContainer = document.createElement('div');
-            lockscreenContainer.innerHTML = data;
-            document.body.appendChild(lockscreenContainer);
-          })
-          .catch(error => console.error('Error loading lockscreen.html:', error));
-  
-        // Load lockscreen.css
-        loadCSS('lockscreen/style.css');
-      }
+  // Function to load CSS
+  function loadCSS(url) {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = url;
+    document.head.appendChild(link);
+  }
 
-      // Function to load CSS
-    function loadCSS(url) {
-      const link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = url;
-      document.head.appendChild(link);
-    }
+  // Fetch and load lockscreen.html
+  fetch('lockscreen/lockscreen.html')
+    .then(response => response.text())
+    .then(data => {
+      const lockscreenContainer = document.createElement('div');
+      lockscreenContainer.innerHTML = data;
+      document.body.appendChild(lockscreenContainer);
+    })
+    .catch(error => console.error('Error loading lockscreen.html:', error));
 
-    // Function to show lockscreen
-    function showLockscreen() {
-      // Fetch and load lockscreen.html
-      fetch('lockscreen/lockscreen.html')
-        .then(response => response.text())
-        .then(data => {
-          const lockscreenContainer = document.createElement('div');
-          lockscreenContainer.innerHTML = data;
-          document.body.appendChild(lockscreenContainer);
-        })
-        .catch(error => console.error('Error loading lockscreen.html:', error));
-
-      // Load lockscreen/style.css
-      loadCSS('lockscreen/style.css');
-    }
+  // Load lockscreen/style.css
+  loadCSS('lockscreen/style.css');
 
     // Add event listener to Print Check button
     document.querySelector('.group-3').addEventListener('click', function() {
