@@ -11,7 +11,7 @@
       <div class="div">
         <!-- Navbar -->
         <div class="navbar">
-          <img class="replace" src="https://c.animaapp.com/dTPxXaJm/img/replace-1.svg" alt="Replace Icon" />
+                   <img class="replace" src="https://c.animaapp.com/dTPxXaJm/img/replace-1.svg" alt="Replace Icon" onclick="showLockscreen()" />
           <img class="round-gala-logo" src="https://c.animaapp.com/dTPxXaJm/img/round-gala-logo-1@2x.png" alt="Gala Logo" />
           <div class="text-wrapper">Rating:</div>
           <div class="text-wrapper-2">Algorithm:</div>
@@ -35,7 +35,7 @@
           <img class="line-4" src="https://c.animaapp.com/dTPxXaJm/img/line-145.svg" alt="Line 4" />
           <img class="line-5" src="https://c.animaapp.com/dTPxXaJm/img/line-145.svg" alt="Line 5" />
           <img class="line-6" src="https://c.animaapp.com/dTPxXaJm/img/line-145.svg" alt="Line 6" />
-          <img class="power" src="https://c.animaapp.com/dTPxXaJm/img/power-1.svg" alt="Power Icon" />
+          <img id="power-icon" class="power" src="https://c.animaapp.com/dTPxXaJm/img/power-1.svg" alt="Power Icon" onclick="showLockscreen()" />
           <img class="total" src="https://c.animaapp.com/dTPxXaJm/img/total-1.svg" alt="Total Icon" />
         </div>
 
@@ -71,11 +71,12 @@
                 <div class="text-wrapper-19">Add a Note</div>
               </div>
             </div>
-            <div class="group-3">
-              <div class="overlap-4">
-                <div class="text-wrapper-19">Print Check</div>
-              </div>
+          <!-- Print Check button -->
+          <div class="group-3">
+            <div class="overlap-4">
+              <div class="text-wrapper-19">Print Check</div>
             </div>
+          </div>
             <div class="group-4">
               <div class="overlap-5">
                 <div class="text-wrapper-19">Modify</div>
@@ -108,17 +109,63 @@
           </div>
 
         <!-- Lock Screen Elements -->
-        <div class="lock-screen">
-          <div class="rectangle-7"></div>
-          <img class="lock" src="https://c.animaapp.com/fQLWVNdF/img/lock-1.svg" alt="Lock Icon">
-          <div class="input-container">
-            <input type="text" class="rectangle-8" placeholder="Enter ID">
-            <img class="vector-2" src="https://c.animaapp.com/fQLWVNdF/img/vector-8.svg" alt="Vector 2">
-          </div>
-        </div>
+        <div id="lockscreen-container" style="display: none;"></div>
 
     <!-- JavaScript for Lock Screen Functionality -->
     <script>
+      // Function to load CSS
+      function loadCSS(url) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = url;
+        document.head.appendChild(link);
+      }
+  
+      // Function to show lockscreen
+      function showLockscreen() {
+        // Fetch and load lockscreen.html
+        fetch('lockscreen/lockscreen.html')
+          .then(response => response.text())
+          .then(data => {
+            const lockscreenContainer = document.createElement('div');
+            lockscreenContainer.innerHTML = data;
+            document.body.appendChild(lockscreenContainer);
+          })
+          .catch(error => console.error('Error loading lockscreen.html:', error));
+  
+        // Load lockscreen.css
+        loadCSS('lockscreen/style.css');
+      }
+
+      // Function to load CSS
+    function loadCSS(url) {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = url;
+      document.head.appendChild(link);
+    }
+
+    // Function to show lockscreen
+    function showLockscreen() {
+      // Fetch and load lockscreen.html
+      fetch('lockscreen/lockscreen.html')
+        .then(response => response.text())
+        .then(data => {
+          const lockscreenContainer = document.createElement('div');
+          lockscreenContainer.innerHTML = data;
+          document.body.appendChild(lockscreenContainer);
+        })
+        .catch(error => console.error('Error loading lockscreen.html:', error));
+
+      // Load lockscreen/style.css
+      loadCSS('lockscreen/style.css');
+    }
+
+    // Add event listener to Print Check button
+    document.querySelector('.group-3').addEventListener('click', function() {
+      window.location.href = 'checkout/checkout.html';
+    });
+
       document.addEventListener("DOMContentLoaded", function() {
         const checkboxes = document.querySelectorAll(".rectangle-3, .rectangle-4, .rectangle-5");
         const selectOrderText = document.querySelector(".p");
@@ -379,4 +426,4 @@ function renderOrderGroups(orders) {
 renderOrderGroups(orders);
     </script>
   </body>
-</html>
+  </html>
