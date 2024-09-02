@@ -7,15 +7,38 @@
   </head>
   <body>
     <div class="lockscreen">
-          <div class="rectangle-7"></div>
-          <img class="lock" src="https://c.animaapp.com/fQLWVNdF/img/lock-1.svg" />
-          <div class="rectangle-8">
-            <input type="text" class="input-field" placeholder="Enter ID" />
-          </div>
-          <img class="line-29" src="https://c.animaapp.com/fQLWVNdF/img/line-137.svg" />
-          <img class="vector-2" src="https://c.animaapp.com/fQLWVNdF/img/vector-8.svg" />
-        </div>
+      <div class="rectangle-7"></div>
+      <img class="lock" src="https://c.animaapp.com/fQLWVNdF/img/lock-1.svg" />
+      <div class="rectangle-8">
+        <input type="text" class="input-field" placeholder="Enter ID" id="password-input" />
       </div>
+      <img class="line-29" src="https://c.animaapp.com/fQLWVNdF/img/line-137.svg" id="line-29" />
+      <img class="vector-2" src="https://c.animaapp.com/fQLWVNdF/img/vector-8.svg" id="vector-2" />
     </div>
+
+    <script>
+      function handleLogin() {
+        const inputField = document.getElementById('password-input');
+        const password = inputField.value;
+        if (password === 'AdminLatem') {
+          // Correct password, proceed with login
+          alert('Login successful'); // Replace with actual login logic
+        } else {
+          // Wrong password, clear input and show error message
+          inputField.value = '';
+          inputField.placeholder = 'Wrong password';
+          inputField.classList.add('error');
+        }
+      }
+
+      document.getElementById('password-input').addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+          handleLogin();
+        }
+      });
+
+      document.getElementById('line-29').addEventListener('click', handleLogin);
+      document.getElementById('vector-2').addEventListener('click', handleLogin);
+    </script>
   </body>
 </html>
