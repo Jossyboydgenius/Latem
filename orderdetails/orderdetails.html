@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="orderdetails">
+      <div class="rectangle-12"></div>
+      <div class="rectangle-13"></div>
+      <div class="orderdetails">
+        <div class="text-wrapper-102">Quantity:</div>
+        <div class="quantity">
+          <input type="number" class="quantity-input" value="1" min="1" />
+        </div>
+        <div class="text-wrapper-103">Note:</div>
+        <div class="note-inputs">
+          <input type="text" class="note-input" maxlength="76" />
+          <input type="text" class="note-input" maxlength="76" />
+          <input type="text" class="note-input" maxlength="76" />
+          <input type="text" class="note-input" maxlength="76" />
+        </div>
+        <div class="orderdetails">
+          <div class="group-22">
+            <button class="continue-button">
+              <div class="overlap-19">
+                <div class="text-wrapper-105">Continue</div>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="orderdetails">
+          <div class="group-23">
+            <button class="back-button">
+              <div class="overlap-20">
+                <div class="text-wrapper-106">Back</div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const inputs = document.querySelectorAll('.note-input');
+        
+        inputs.forEach((input, index) => {
+          input.addEventListener('input', (e) => {
+            if (input.value.length >= input.maxLength) {
+              const nextInput = inputs[index + 1];
+              if (nextInput) {
+                nextInput.focus();
+              }
+            }
+          });
+
+          input.addEventListener('keydown', (e) => {
+            if (e.key === 'Backspace' && input.value.length === 0) {
+              const prevInput = inputs[index - 1];
+              if (prevInput) {
+                prevInput.focus();
+                prevInput.value = prevInput.value.slice(0, -1); // Remove the last character from the previous input
+              }
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
