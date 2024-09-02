@@ -1,0 +1,318 @@
+.change-calculator .rectangle-10 {
+  position: absolute;
+  width: 1920px;
+  height: 1030px;
+  top: 50px;
+  left: 0;
+  background-color: #00000099;
+}
+
+.change-calculator .rectangle-11 {
+  position: absolute;
+  width: 595px;
+  height: 278px;
+  top: 366px;
+  left: 645px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.change-calculator .group-3 {
+  position: absolute;
+  width: 75px;
+  height: 39px;
+  top: 586px;
+  left: 1103px;
+}
+
+.change-calculator .overlap-2 {
+  position: relative;
+  width: 73px;
+  height: 39px;
+  background-color: #0093ff;
+  border-radius: 8px;
+}
+
+.change-calculator .text-wrapper-100 {
+  position: absolute;
+  top: 11px;
+  left: 17px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.change-calculator .group-4 {
+  position: absolute;
+  width: 70px;
+  height: 39px;
+  top: 586px;
+  left: 1018px;
+}
+
+.change-calculator .overlap-3 {
+  position: relative;
+  width: 68px;
+  height: 39px;
+  background-color: #0093ff;
+  border-radius: 8px;
+}
+
+.change-calculator .text-wrapper-101 {
+  width: 35px;
+  top: 11px;
+  left: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.change-calculator .text-wrapper-102 {
+  top: 409px;
+  left: 677px;
+  font-weight: 600;
+  font-size: 25px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.change-calculator .line-30 {
+  position: absolute;
+  width: 368px;
+  height: 1px;
+  top: 448px;
+  left: 677px;
+  object-fit: cover;
+}
+
+.change-calculator .group-5 {
+  position: absolute;
+  width: 238px;
+  height: 68px;
+  top: 491px;
+  left: 677px;
+}
+
+.change-calculator .overlap-4 {
+  position: relative;
+  width: 236px;
+  height: 68px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.change-calculator .text-wrapper-103 {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #575757;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.change-calculator .group-6 {
+  position: absolute;
+  width: 238px;
+  height: 68px;
+  top: 491px;
+  left: 945px;
+}
+
+.change-input {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  width: calc(100% - 32px); /* Adjust width to fit within the parent */
+  height: calc(100% - 36px); /* Adjust height to fit within the parent */
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #575757;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.change-input::placeholder {
+  color: #575757;
+}
+
+.overlap-4 {
+  position: relative;
+  width: 236px;
+  height: 68px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #000000;
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.overlap-4:hover {
+  background-color: #e0e0e0; /* Add hover effect */
+}
+
+.change-input {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  width: calc(100% - 32px); /* Adjust width to fit within the parent */
+  height: calc(100% - 36px); /* Adjust height to fit within the parent */
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #575757;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.change-input::placeholder {
+  color: #575757;
+}
+
+.overlap-4 {
+  position: relative;
+  width: 236px;
+  height: 68px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #000000;
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.overlap-4:hover {
+  background-color: #e0e0e0; /* Add hover effect */
+}
+
+.change-input {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  width: calc(100% - 32px); /* Adjust width to fit within the parent */
+  height: calc(100% - 36px); /* Adjust height to fit within the parent */
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #575757;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.change-input::placeholder {
+  color: #575757;
+}
+
+.overlap-4 {
+  position: relative;
+  width: 236px;
+  height: 68px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #000000;
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.overlap-4:hover {
+  background-color: #e0e0e0; /* Add hover effect */
+}
+
+.finish-button {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer; /* Add cursor pointer */
+  width: 100%; /* Ensure the button covers the entire overlap */
+  height: 100%; /* Ensure the button covers the entire overlap */
+}
+
+.change-calculator .overlap-2 {
+  position: relative;
+  width: 73px;
+  height: 39px;
+  background-color: #0093ff;
+  border-radius: 8px;
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.change-calculator .overlap-2:hover {
+  background-color: #007acc; /* Add hover effect */
+}
+
+.change-calculator .text-wrapper-100 {
+  position: absolute;
+  top: 11px;
+  left: 17px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.back-button {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer; /* Add cursor pointer */
+  width: 100%; /* Ensure the button covers the entire overlap */
+  height: 100%; /* Ensure the button covers the entire overlap */
+}
+
+.change-calculator .overlap-3 {
+  position: relative;
+  width: 68px;
+  height: 39px;
+  background-color: #0093ff;
+  border-radius: 8px;
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.change-calculator .overlap-3:hover {
+  background-color: #007acc; /* Add hover effect */
+}
+
+.change-calculator .text-wrapper-101 {
+  width: 35px;
+  top: 11px;
+  left: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
