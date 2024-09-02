@@ -111,6 +111,7 @@
   left: 0;
   background-color: #000000;
   opacity: 0.8;
+  border-radius: inherit;
 }
 
 .adminaccess .rectangle-9 {
