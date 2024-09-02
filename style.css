@@ -1542,7 +1542,7 @@
 
 .close-button {
   position: absolute;
-  top: 15px; /* Adjust as needed */
+  top: 30px; /* Adjust as needed */
   right: 15px; /* Adjust as needed */
   font-size: 20px;
   font-weight: bold;
@@ -1635,4 +1635,17 @@
   display: flex;
   flex-direction: column;
   gap: 10px; /* Adjust the gap between checked items */
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
 }
