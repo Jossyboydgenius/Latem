@@ -1444,11 +1444,11 @@
   border: none;
 }
 
-.salads-item:hover {
-  background-color: #f0f0f0;
-}
+/* .salad-item:hover {
+  background-color: #747070b0;
+} */
 
-.salads-item.selected {
+.salad-item.selected {
   background-color: #007bff;
   color: #ffffff; /* Optional: Change text color when selected */
 }
@@ -1842,7 +1842,7 @@
 }
 
 .salad-item:hover {
-  background-color: #f0f0f0;
+  background-color: #777373;
 }
 
 .salads-item.selected {
