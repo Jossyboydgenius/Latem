@@ -95,7 +95,7 @@
             </div>
             <div class="group-5">
               <div class="overlap-6">
-                <div class="text-wrapper-20">Delete Table</div>
+                <div class="text-wrapper-20" onclick="showAdminAccess()">Delete Table</div>
               </div>
             </div>
             <div class="group-6">
@@ -124,7 +124,38 @@
 
     <!-- JavaScript for Lock Screen Functionality -->
     <script>
-    function showGrandTotal() {
+      function showAdminAccess() {
+        // Fetch and load adminaccess.html
+        fetch('adminaccess/adminaccess.html')
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Network response was not ok');
+            }
+            return response.text();
+          })
+          .then(data => {
+            const adminAccessContainer = document.createElement('div');
+            adminAccessContainer.innerHTML = data;
+            adminAccessContainer.id = 'admin-access-container';
+            adminAccessContainer.style.position = 'fixed';
+            adminAccessContainer.style.top = '0';
+            adminAccessContainer.style.left = '0';
+            adminAccessContainer.style.width = '100%';
+            adminAccessContainer.style.height = '100%';
+            adminAccessContainer.style.backgroundColor = 'rgba(0, 0, 0, 0)'; // Optional: to add a semi-transparent background
+            adminAccessContainer.style.zIndex = '1000'; // Ensure it is on top
+            document.body.appendChild(adminAccessContainer);
+
+            // Load adminaccess/style.css
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = 'adminaccess/style.css';
+            document.head.appendChild(link);
+          })
+          .catch(error => console.error('Error loading adminaccess.html:', error));
+      }
+
+       function showGrandTotal() {
         // Fetch and load grandtotal.html
         fetch('grandtotal/grandtotal.html')
           .then(response => {
@@ -182,9 +213,9 @@
             document.body.removeChild(lockscreenContainer);
             document.getElementById('user-name').textContent = 'Latem';
           } else {
-            // Wrong password, clear input and show error message
+            // ID not found!, clear input and show error message
             inputField.value = '';
-            inputField.placeholder = 'Wrong password';
+            inputField.placeholder = 'ID not found!';
             inputField.classList.add('error');
           }
         };
