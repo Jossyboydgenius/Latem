@@ -1,0 +1,118 @@
+.admincodecheckout .rectangle-10 {
+  position: absolute;
+  width: 1920px;
+  height: 1030px;
+  top: 50px;
+  left: 0;
+  background-color: #00000099;
+}
+
+.admincodecheckout .rectangle-11 {
+  position: absolute;
+  width: 636px;
+  height: 360px;
+  top: 341px;
+  left: 631px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.admincodecheckout .text-wrapper-100 {
+  position: absolute;
+  top: 383px;
+  left: 666px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #960000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.admincodecheckout .text-wrapper-101 {
+  position: absolute;
+  width: 578px;
+  top: 424px;
+  left: 666px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.admincodecheckout .rectangle-12 {
+  position: absolute;
+  width: 316px;
+  height: 92px;
+  top: 526px;
+  left: 666px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.admincodecheckout .rectangle-12:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.admincodecheckout .input-field {
+  width: 90%; /* Adjust width to ensure no overflow */
+  height: 60%;
+  padding: 10px 20px; /* Adjust padding to prevent overflow */
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #575757;
+  font-family: "Inter", Helvetica;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.admincodecheckout .rectangle-13 {
+  position: absolute;
+  width: 94px;
+  height: 92px;
+  top: 526px;
+  left: 998px;
+  border-radius: 8px;
+  border: 4px solid;
+  border-color: #860606;
+}
+
+.admincodecheckout .text-wrapper-102 {
+  position: absolute;
+  top: 559px;
+  left: 691px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #575757;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.admincodecheckout .line-30 {
+  position: absolute;
+  width: 43px;
+  height: 4px;
+  top: 570px;
+  left: 1015px;
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.admincodecheckout .vector-2 {
+  position: absolute;
+  width: 19px;
+  height: 37px;
+  top: 553px;
+  left: 1054px;
+  cursor: pointer; /* Change cursor to pointer */
+}
