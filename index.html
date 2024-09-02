@@ -217,58 +217,60 @@ function showTable() {
           })
           .catch(error => console.error('Error loading grandtotal.html:', error));
       }
+ // Function to load CSS
+ function loadCSS(url) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = url;
+        document.head.appendChild(link);
+      }
 
-  // Function to load CSS
-  function loadCSS(url) {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = url;
-    document.head.appendChild(link);
-  }
+      // Function to show lockscreen
+      function showLockscreen() {
+        // Fetch and load lockscreen.html
+        fetch('lockscreen/lockscreen.html')
+          .then(response => response.text())
+          .then(data => {
+            const lockscreenContainer = document.createElement('div');
+            lockscreenContainer.innerHTML = data;
+            document.body.appendChild(lockscreenContainer);
 
-  // Function to show lockscreen
-  function showLockscreen() {
-    // Fetch and load lockscreen.html
-    fetch('lockscreen/lockscreen.html')
-      .then(response => response.text())
-      .then(data => {
-        const lockscreenContainer = document.createElement('div');
-        lockscreenContainer.innerHTML = data;
-        document.body.appendChild(lockscreenContainer);
+            // Add event listeners for login functionality
+            const inputField = document.getElementById('password-input');
+            const handleLogin = () => {
+              const password = inputField.value;
+              const hashedPassword = CryptoJS.SHA256(password).toString();
+              const storedHashedPassword = 'e3afed0047b08059d0fada10f400c1e5';
 
-        // Add event listeners for login functionality
-        const inputField = document.getElementById('password-input');
-        const handleLogin = () => {
-          const password = inputField.value;
-          if (password === 'AdminLatem') {
-            // Correct password, remove lockscreen and update username
-            document.body.removeChild(lockscreenContainer);
-            document.getElementById('user-name').textContent = 'Latem';
-          } else {
-            // ID not found!, clear input and show error message
-            inputField.value = '';
-            inputField.placeholder = 'ID not found!';
-            inputField.classList.add('error');
-          }
-        };
+              if (hashedPassword === storedHashedPassword) {
+                // Correct password, remove lockscreen and update username
+                document.body.removeChild(lockscreenContainer);
+                document.getElementById('user-name').textContent = 'Latem';
+              } else {
+                // ID not found!, clear input and show error message
+                inputField.value = '';
+                inputField.placeholder = 'ID not found!';
+                inputField.classList.add('error');
+              }
+            };
 
-        inputField.addEventListener('keypress', function(event) {
-          if (event.key === 'Enter') {
-            handleLogin();
-          }
-        });
+            inputField.addEventListener('keypress', function(event) {
+              if (event.key === 'Enter') {
+                handleLogin();
+              }
+            });
 
-        document.getElementById('line-29').addEventListener('click', handleLogin);
-        document.getElementById('vector-2').addEventListener('click', handleLogin);
-      })
-      .catch(error => console.error('Error loading lockscreen.html:', error));
+            document.getElementById('line-29').addEventListener('click', handleLogin);
+            document.getElementById('vector-2').addEventListener('click', handleLogin);
+          })
+          .catch(error => console.error('Error loading lockscreen.html:', error));
 
-    // Load lockscreen/style.css
-    loadCSS('lockscreen/style.css');
-  }
+        // Load lockscreen/style.css
+        loadCSS('lockscreen/style.css');
+      }
 
-  // Show lockscreen when the page is loaded
-  document.addEventListener('DOMContentLoaded', showLockscreen);
+      // Show lockscreen when the page is loaded
+      document.addEventListener('DOMContentLoaded', showLockscreen);
 
     // Add event listener to Print Check button
     document.querySelector('.group-3').addEventListener('click', function() {
