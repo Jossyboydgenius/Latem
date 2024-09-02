@@ -6,349 +6,163 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="element">
-      <div class="overlap-wrapper">
-        <div class="overlap">
-          <div class="rectangle"></div>
-          <img class="round-gala-logo" src="https://c.animaapp.com/fYZgYs2E/img/round-gala-logo-1@2x.png" />
-          <div class="text-wrapper">Rating:</div>
-          <div class="div">Algorithm:</div>
-          <div class="text-wrapper-2">Connection:</div>
-          <div class="text-wrapper-3">Total Active Tables:</div>
-          <div class="text-wrapper-4">Total Items:</div>
-          <div id="current-time" class="text-wrapper-5"></div>
-          <div id="current-date" class="text-wrapper-6"></div>
-          <div class="text-wrapper-7">Good</div>
-          <div class="text-wrapper-8">Active</div>
-          <div class="text-wrapper-9">Active</div>
-          <div class="text-wrapper-10">10</div>
-          <div class="text-wrapper-11">10</div>
-          <div class="ellipse"></div>
-          <div class="ellipse-2"></div>
-          <div class="ellipse-3"></div>
-          <img class="line" src="https://c.animaapp.com/fYZgYs2E/img/line-33.svg" />
-          <img class="img" src="https://c.animaapp.com/fYZgYs2E/img/line-33.svg" />
-          <img class="line-2" src="https://c.animaapp.com/fYZgYs2E/img/line-33.svg" />
-          <img class="line-3" src="https://c.animaapp.com/fYZgYs2E/img/line-33.svg" />
-          <div class="group">
-            <div class="overlap-group">
-              <div class="text-wrapper-12">Table 2</div>
-              <div class="text-wrapper-13">Item</div>
-              <div class="text-wrapper-14">Imeruli Khachapuri</div>
-              <div class="overlap-2">
-                <div class="text-wrapper-15">1</div>
-                <div class="text-wrapper-16">1</div>
-                <div class="text-wrapper-17">1</div>
-                <div class="text-wrapper-18">1</div>
-                <div class="text-wrapper-19">Quantity</div>
-                <div class="overlap-3">
-                  <img class="line-4" src="https://c.animaapp.com/fYZgYs2E/img/line-40-1.svg" />
-                  <img class="line-5" src="https://c.animaapp.com/fYZgYs2E/img/line-65.svg" />
-                </div>
-              </div>
-              <div class="text-wrapper-20">Shkmeruli</div>
-              <div class="text-wrapper-21">Chicken BBQ</div>
-              <div class="text-wrapper-22">Veil BBQ</div>
-              <div class="overlap-4">
-                <div class="text-wrapper-23">Completed Items:</div>
-                <div class="text-wrapper-24">Bread,</div>
-                <div class="text-wrapper-25">Tomato Sauce</div>
-              </div>
-              <div class="overlap-5">
-                <div class="text-wrapper-26">Total Wait Time:</div>
-                <div class="text-wrapper-27">12m 30s</div>
-                <img class="line-6" src="https://c.animaapp.com/fYZgYs2E/img/line-44-1.svg" />
-              </div>
-              <div class="overlap-6">
-                <div class="text-wrapper-26">Seats:</div>
-                <div class="text-wrapper-28">2</div>
-              </div>
-              <div class="overlap-7">
-                <div class="text-wrapper-26">Order Count:</div>
-                <div class="text-wrapper-29">5</div>
-              </div>
-              <div class="overlap-8">
-                <div class="text-wrapper-26">Completed Items:</div>
-                <div class="text-wrapper-30">2</div>
-              </div>
-              <div class="overlap-9">
-                <div class="text-wrapper-26">Rating:</div>
-                <div class="text-wrapper-31">Fair</div>
-              </div>
-              <div class="overlap-10">
-                <div class="text-wrapper-26">Order ID:</div>
-                <div class="text-wrapper-32">1090</div>
-              </div>
-              <div class="overlap-11">
-                <div class="text-wrapper-33">Note</div>
-                <div class="overlap-3">
-                  <img class="line-4" src="https://c.animaapp.com/fYZgYs2E/img/line-40-1.svg" />
-                  <img class="line-5" src="https://c.animaapp.com/fYZgYs2E/img/line-65.svg" />
-                </div>
-              </div>
-              <img class="line-7" src="https://c.animaapp.com/fYZgYs2E/img/line-36-1.svg" />
-              <img class="line-8" src="https://c.animaapp.com/fYZgYs2E/img/line-37-1.svg" />
-              <img class="line-9" src="https://c.animaapp.com/fYZgYs2E/img/line-42-1.svg" />
-              <img class="line-10" src="https://c.animaapp.com/fYZgYs2E/img/line-44-1.svg" />
-              <img class="line-11" src="https://c.animaapp.com/fYZgYs2E/img/line-44-1.svg" />
-              <img class="line-12" src="https://c.animaapp.com/fYZgYs2E/img/line-44-1.svg" />
-              <img class="line-13" src="https://c.animaapp.com/fYZgYs2E/img/line-47-1.svg" />
-            </div>
+    <div class="orderlist">
+      <div class="rectangle-3"></div>
+      <div class="rectangle-4"></div>
+      <div class="text-wrapper-77">New Order</div>
+      <div class="text-wrapper-78">Choose Items</div>
+      <img class="line-32" src="https://c.animaapp.com/fYZgYs2E/img/line-86.svg" />
+      <div class="rectangle-5"></div>
+      <div class="rectangle-6"></div>
+      <div class="rectangle-7">
+        <div class="item-container">
+          <!-- Salad items -->
+          <div class="salads-items">
+            <button class="salad-item" onclick="toggleSelected(this)">Green Salad</button>
+            <button class="salad-item" onclick="toggleSelected(this)">Cucumber-Tomato Salad / Walnuts</button>
+            <button class="salad-item" onclick="toggleSelected(this)">Caesar Salad</button>
+            <button class="salad-item" onclick="toggleSelected(this)">Salad with Arugula</button>
           </div>
-          <div class="group-2">
-            <div class="overlap-12">
-              <div class="text-wrapper-12">Table 3</div>
-              <div class="overlap-13">
-                <div class="text-wrapper-34">Item</div>
-                <div class="text-wrapper-35">Imeruli Khachapuri</div>
-                <div class="text-wrapper-36">1</div>
-                <div class="text-wrapper-37">1</div>
-                <div class="text-wrapper-38">1</div>
-                <div class="text-wrapper-39">1</div>
-                <div class="text-wrapper-40">1</div>
-                <div class="text-wrapper-41">1</div>
-                <div class="text-wrapper-42">Shkmeruli</div>
-                <div class="text-wrapper-43">Chicken BBQ</div>
-                <div class="text-wrapper-44">Chicken BBQ</div>
-                <div class="text-wrapper-45">Veil BBQ</div>
-                <div class="text-wrapper-46">Veil BBQ</div>
-                <div class="overlap-group-2">
-                  <div class="text-wrapper-47">Completed Items:</div>
-                  <div class="text-wrapper-48">NO COMPLETED ITEMS</div>
-                  <img class="line-14" src="https://c.animaapp.com/fYZgYs2E/img/line-40-1.svg" />
-                  <img class="line-15" src="https://c.animaapp.com/fYZgYs2E/img/line-65.svg" />
-                </div>
-                <div class="text-wrapper-49">Quantity</div>
-                <img class="line-16" src="https://c.animaapp.com/fYZgYs2E/img/line-37-1.svg" />
-                <img class="line-17" src="https://c.animaapp.com/fYZgYs2E/img/line-47-1.svg" />
-              </div>
-              <div class="overlap-14">
-                <div class="text-wrapper-26">Total Wait Time:</div>
-                <div class="text-wrapper-50">22m 30s</div>
-              </div>
-              <div class="overlap-6">
-                <div class="text-wrapper-26">Seats:</div>
-                <div class="text-wrapper-28">2</div>
-              </div>
-              <div class="overlap-7">
-                <div class="text-wrapper-26">Order Count:</div>
-                <div class="text-wrapper-29">5</div>
-              </div>
-              <div class="overlap-8">
-                <div class="text-wrapper-26">Completed Items:</div>
-                <div class="text-wrapper-51">0</div>
-              </div>
-              <div class="overlap-15">
-                <div class="text-wrapper-26">Rating:</div>
-                <div class="text-wrapper-52">Bad</div>
-              </div>
-              <div class="overlap-10">
-                <div class="text-wrapper-26">Order ID:</div>
-                <div class="text-wrapper-32">1090</div>
-              </div>
-              <div class="overlap-11">
-                <div class="text-wrapper-33">Note</div>
-                <div class="overlap-3">
-                  <img class="line-4" src="https://c.animaapp.com/fYZgYs2E/img/line-40-1.svg" />
-                  <img class="line-5" src="https://c.animaapp.com/fYZgYs2E/img/line-65.svg" />
-                </div>
-              </div>
-              <img class="line-7" src="https://c.animaapp.com/fYZgYs2E/img/line-36-1.svg" />
-            </div>
-            <img class="line-18" src="https://c.animaapp.com/fYZgYs2E/img/line-70@2x.png" />
-            <img class="line-19" src="https://c.animaapp.com/fYZgYs2E/img/line-70@2x.png" />
-            <img class="line-20" src="https://c.animaapp.com/fYZgYs2E/img/line-70@2x.png" />
-            <img class="line-21" src="https://c.animaapp.com/fYZgYs2E/img/line-70@2x.png" />
-            <img class="line-22" src="https://c.animaapp.com/fYZgYs2E/img/line-70@2x.png" />
+          <!-- Drinks items -->
+          <div class="drinks-items">
+            <button class="drink-item" onclick="toggleSelected(this)">Sparkling Water</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Lemonade Cup</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Lemonade Jug</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Coca-Cola</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Juice (Cup)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Juice (Jug)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Americano</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Leffe Mug</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Mtsvane (Dry)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Tvishi (Semi-Sweet)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">White Wine Glass</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Sapheravi (Dry)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Mukuzani (Dry)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Alazani Valley (Semi-Sweet)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Kindzmaruli (Semi-Sweet)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Sapheravi (Dry) Glass</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Sapheravi (Dry) 1L</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Rasberry Wine</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Tsinandali (Dry)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Kisi (Dry)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Khikhvi (Dry)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Alazani Valley (Semi-Sweet)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Argo Mug</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Argo Large Bottle</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Argo Black Bottle</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Chacha Classic (Cup)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Chacha Classic (Bottle)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Espresso</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Cappuchino</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Latte</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Turkish Coffee</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Tea (Cup)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Tea (Jug)</button>
+            <button class="drink-item" onclick="toggleSelected(this)">Water</button>
           </div>
-          <div class="overlap-group-wrapper">
-            <div class="overlap-16">
-              <div class="text-wrapper-53">Table 1</div>
-              <div class="overlap-17">
-                <div class="text-wrapper-34">Item</div>
-                <div class="text-wrapper-35">Imeruli Khachapuri</div>
-                <div class="text-wrapper-36">1</div>
-                <div class="text-wrapper-37">1</div>
-                <div class="text-wrapper-38">1</div>
-                <div class="text-wrapper-40">1</div>
-                <div class="text-wrapper-54">2</div>
-                <div class="text-wrapper-55">2</div>
-                <div class="text-wrapper-56">3</div>
-                <div class="text-wrapper-57">2</div>
-                <div class="text-wrapper-42">Shkmeruli</div>
-                <div class="text-wrapper-43">Chicken BBQ</div>
-                <div class="text-wrapper-45">Veil BBQ</div>
-                <div class="text-wrapper-58">Pork BBQ</div>
-                <div class="text-wrapper-59">Garlic Bread</div>
-                <div class="text-wrapper-60">Sour Cream Dessert</div>
-                <div class="text-wrapper-61">Cucumber-Tomato Salad / Wallnuts</div>
-                <div class="overlap-18">
-                  <div class="text-wrapper-62">Completed Items:</div>
-                  <div class="text-wrapper-63">Bread,</div>
-                  <div class="text-wrapper-64">Tomato Sauce,</div>
-                  <div class="text-wrapper-65">Lemonade,</div>
-                  <div class="text-wrapper-66">Garlic Bread,</div>
-                  <div class="text-wrapper-67">Tkemali</div>
-                  <img class="line-14" src="https://c.animaapp.com/fYZgYs2E/img/line-40-1.svg" />
-                  <img class="line-23" src="https://c.animaapp.com/fYZgYs2E/img/line-41-1.svg" />
-                </div>
-                <div class="text-wrapper-68">Quantity</div>
-                <img class="line-16" src="https://c.animaapp.com/fYZgYs2E/img/line-37-1.svg" />
-                <img class="line-24" src="https://c.animaapp.com/fYZgYs2E/img/line-47-1.svg" />
-              </div>
-              <div class="overlap-19">
-                <div class="text-wrapper-69">NO VINEGAR</div>
-                <div class="text-wrapper-33">Note</div>
-                <div class="overlap-20">
-                  <img class="line-4" src="https://c.animaapp.com/fYZgYs2E/img/line-40-1.svg" />
-                  <img class="line-25" src="https://c.animaapp.com/fYZgYs2E/img/line-41-1.svg" />
-                </div>
-              </div>
-              <div class="overlap-group-3">
-                <div class="text-wrapper-26">Total Wait Time:</div>
-                <div class="text-wrapper-70">2m 30s</div>
-                <img class="line-6" src="https://c.animaapp.com/fYZgYs2E/img/line-44-1.svg" />
-              </div>
-              <div class="overlap-6">
-                <div class="text-wrapper-26">Seats:</div>
-                <div class="text-wrapper-28">2</div>
-              </div>
-              <div class="overlap-7">
-                <div class="text-wrapper-26">Order Count:</div>
-                <div class="text-wrapper-29">5</div>
-              </div>
-              <div class="overlap-21">
-                <div class="overlap-22">
-                  <div class="text-wrapper-26">Completed Items:</div>
-                  <div class="text-wrapper-71">5</div>
-                </div>
-                <div class="overlap-23">
-                  <div class="text-wrapper-26">Order ID:</div>
-                  <div class="text-wrapper-32">1090</div>
-                </div>
-                <img class="line-26" src="https://c.animaapp.com/fYZgYs2E/img/line-42-1.svg" />
-                <img class="line-27" src="https://c.animaapp.com/fYZgYs2E/img/line-44-1.svg" />
-              </div>
-              <div class="overlap-24">
-                <div class="text-wrapper-26">Rating:</div>
-                <div class="text-wrapper-72">Good</div>
-              </div>
-              <img class="line-28" src="https://c.animaapp.com/fYZgYs2E/img/line-36-1.svg" />
-              <img class="line-29" src="https://c.animaapp.com/fYZgYs2E/img/line-44-1.svg" />
-              <img class="line-30" src="https://c.animaapp.com/fYZgYs2E/img/line-44-1.svg" />
-            </div>
+          <!-- Appetizers items -->
+          <div class="appetizers-items">
+            <button class="appetizer-item" onclick="toggleSelected(this)">Pkhali Board</button>
+            <button class="appetizer-item" onclick="toggleSelected(this)">Eggplant with Walnuts</button>
+            <button class="appetizer-item" onclick="toggleSelected(this)">Georgian Cheese Board</button>
+            <button class="appetizer-item" onclick="toggleSelected(this)">Imeretian Cheese</button>
+            <button class="appetizer-item" onclick="toggleSelected(this)">Imeretian Cheese</button>
+            <button class="appetizer-item" onclick="toggleSelected(this)">Sulguni</button>
+            <button class="appetizer-item" onclick="toggleSelected(this)">Pickle Board</button>
+            <button class="appetizer-item" onclick="toggleSelected(this)">Grated Cheese with Mint</button>
           </div>
-          <div class="div-wrapper">
-            <div class="overlap-25">
-              <div class="rectangle-2"></div>
-              <div class="text-wrapper-73">Add a New Order</div>
-            </div>
+          <!-- Soup items -->
+          <div class="soups-items">
+            <button class="soup-item" onclick="toggleSelected(this)">Chakhapuli of Veal</button>
+            <button class="soup-item" onclick="toggleSelected(this)">Khashalama</button>
+            <button class="soup-item" onclick="toggleSelected(this)">Chicken Alley</button>
+            <button class="soup-item" onclick="toggleSelected(this)">Mushroom Soup</button>
+            <button class="soup-item" onclick="toggleSelected(this)">Veal Stew</button>
+            <button class="soup-item" onclick="toggleSelected(this)">Kharcho</button>
           </div>
-          <div class="group-3">
-            <div class="overlap-26"><div class="text-wrapper-74">Add an Item</div></div>
+          <!-- Main Dishes items -->
+          <div class="main-dishes-items">
+            <button class="main-dish-item" onclick="toggleSelected(this)">Kalia</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Kebab</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Shkmeruli</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Pork Loin</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Kuchmachi in Imerulad</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Kebab in Badekoni</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Pork Rib with Ajika</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Bean Pot</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Bean Pot</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Veal Rib with Ajika</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Ojakhuri with Pork</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Trout in Vegetables</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Pork Barbecue</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Ojakhuri with Calf</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Veal Barbecue</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Pork with Potatoes</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Chicken Barbecue</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Mushrooms on the Fold</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Kupat</button>
+            <button class="main-dish-item" onclick="toggleSelected(this)">Mushrooms with Sulguni</button>
           </div>
-          <div class="group-4">
-            <div class="overlap-27"><div class="text-wrapper-75">Delete an Item</div></div>
+          <!-- From the Oven items -->
+          <div class="from-the-oven-items">
+            <button class="from-the-oven-item" onclick="toggleSelected(this)">Khachapuri Megruli</button>
+            <button class="from-the-oven-item" onclick="toggleSelected(this)">Khachapuri Imeruti</button>
+            <button class="from-the-oven-item" onclick="toggleSelected(this)">Khacapuri Lazuri</button>
+            <button class="from-the-oven-item" onclick="toggleSelected(this)">Khachapuri Adjarian</button>
+            <button class="from-the-oven-item" onclick="toggleSelected(this)">Lobiani</button>
+            <button class="from-the-oven-item" onclick="toggleSelected(this)">Pizza Margherita</button>
+            <button class="from-the-oven-item" onclick="toggleSelected(this)">Lobiani with Ham</button>
+            <button class="from-the-oven-item" onclick="toggleSelected(this)">Pizza with Four Cheeses</button>
+            <button class="from-the-oven-item" onclick="toggleSelected(this)">Pizza Caprichosa</button>
+            <button class="from-the-oven-item" onclick="toggleSelected(this)">Pizza Peperoni</button>
+            <button class="from-the-oven-item" onclick="toggleSelected(this)">Kubdari</button>
+            <button class="from-the-oven-item" onclick="toggleSelected(this)">Adjarian Lobiani</button>
           </div>
-          <div class="group-5">
-            <div class="overlap-28"><div class="text-wrapper-75">Add a Note</div></div>
+          <!-- Khinkali items -->
+          <div class="khinkali-items">
+            <button class="khinkali-item" onclick="toggleSelected(this)">Khinkali Kalakuri</button>
+            <button class="khinkali-item" onclick="toggleSelected(this)">Khinkali with Cheese</button>
+            <button class="khinkali-item" onclick="toggleSelected(this)">Khinkali with Mushrooms</button>
           </div>
-          <div class="group-6">
-            <div class="overlap-28"><div class="text-wrapper-75">Print Check</div></div>
+          <!-- Board items -->
+          <div class="boards-items">
+            <button class="board-item" onclick="toggleSelected(this)">Imeretian Board</button>
+            <button class="board-item" onclick="toggleSelected(this)">Royal Board</button>
+            <button class="board-item" onclick="toggleSelected(this)">Bean Board (4 Persona)</button>
+            <button class="board-item" onclick="toggleSelected(this)">Fruit Board</button>
           </div>
-          <div class="group-7">
-            <div class="overlap-29"><div class="text-wrapper-75">Mark Item Complete</div></div>
+          <!-- Garnish items -->
+          <div class="garnish-items">
+            <button class="garnish-item" onclick="toggleSelected(this)">Fries</button>
+            <button class="garnish-item" onclick="toggleSelected(this)">Mexican Potatoes</button>
           </div>
-          <div class="group-8">
-            <div class="overlap-30"><div class="text-wrapper-75">Apply Discount</div></div>
+          <!-- Bread items -->
+          <div class="bread-items">
+            <button class="bread-item" onclick="toggleSelected(this)">Bread</button>
+            <button class="bread-item" onclick="toggleSelected(this)">Mchadi</button>
+            <button class="bread-item" onclick="toggleSelected(this)">Garlic Bread</button>
           </div>
-          <div class="group-9">
-            <div class="overlap-31"><div class="text-wrapper-76">End Order</div></div>
+          <!-- Desserts items -->
+          <div class="desserts-items">
+            <button class="dessert-item" onclick="toggleSelected(this)">Matsoni (Sour Cream)</button>
+            <button class="dessert-item" onclick="toggleSelected(this)">Felamushi</button>
           </div>
-          <div class="group-10">
-            <div class="overlap-32">
-              <div class="text-wrapper-12">Table 1</div>
-              <div class="overlap-17">
-                <div class="text-wrapper-34">Item</div>
-                <div class="text-wrapper-35">Imeruli Khachapuri</div>
-                <div class="text-wrapper-36">1</div>
-                <div class="text-wrapper-37">1</div>
-                <div class="text-wrapper-38">1</div>
-                <div class="text-wrapper-40">1</div>
-                <div class="text-wrapper-54">2</div>
-                <div class="text-wrapper-55">2</div>
-                <div class="text-wrapper-56">3</div>
-                <div class="text-wrapper-57">2</div>
-                <div class="text-wrapper-42">Shkmeruli</div>
-                <div class="text-wrapper-43">Chicken BBQ</div>
-                <div class="text-wrapper-45">Veil BBQ</div>
-                <div class="text-wrapper-58">Pork BBQ</div>
-                <div class="text-wrapper-59">Garlic Bread</div>
-                <div class="text-wrapper-60">Sour Cream Dessert</div>
-                <div class="text-wrapper-61">Cucumber-Tomato Salad / Wallnuts</div>
-                <div class="overlap-18">
-                  <div class="text-wrapper-62">Completed Items:</div>
-                  <div class="text-wrapper-63">Bread,</div>
-                  <div class="text-wrapper-64">Tomato Sauce,</div>
-                  <div class="text-wrapper-65">Lemonade,</div>
-                  <div class="text-wrapper-66">Garlic Bread,</div>
-                  <div class="text-wrapper-67">Tkemali</div>
-                  <img class="line-14" src="https://c.animaapp.com/fYZgYs2E/img/line-40-1.svg" />
-                  <img class="line-23" src="https://c.animaapp.com/fYZgYs2E/img/line-41-1.svg" />
-                </div>
-                <div class="text-wrapper-68">Quantity</div>
-                <img class="line-16" src="https://c.animaapp.com/fYZgYs2E/img/line-37-1.svg" />
-                <img class="line-24" src="https://c.animaapp.com/fYZgYs2E/img/line-47-1.svg" />
-              </div>
-              <div class="overlap-19">
-                <div class="text-wrapper-69">NO VINEGAR</div>
-                <div class="text-wrapper-33">Note</div>
-                <div class="overlap-20">
-                  <img class="line-4" src="https://c.animaapp.com/fYZgYs2E/img/line-40-1.svg" />
-                  <img class="line-25" src="https://c.animaapp.com/fYZgYs2E/img/line-41-1.svg" />
-                </div>
-              </div>
-              <div class="overlap-group-3">
-                <div class="text-wrapper-26">Total Wait Time:</div>
-                <div class="text-wrapper-70">2m 30s</div>
-                <img class="line-6" src="https://c.animaapp.com/fYZgYs2E/img/line-44-1.svg" />
-              </div>
-              <div class="overlap-6">
-                <div class="text-wrapper-26">Seats:</div>
-                <div class="text-wrapper-28">2</div>
-              </div>
-              <div class="overlap-7">
-                <div class="text-wrapper-26">Order Count:</div>
-                <div class="text-wrapper-29">5</div>
-              </div>
-              <div class="overlap-33">
-                <div class="text-wrapper-26">Completed Items:</div>
-                <div class="text-wrapper-71">5</div>
-              </div>
-              <div class="overlap-24">
-                <div class="text-wrapper-26">Rating:</div>
-                <div class="text-wrapper-72">Good</div>
-              </div>
-              <div class="overlap-34">
-                <div class="text-wrapper-26">Order ID:</div>
-                <div class="text-wrapper-32">1090</div>
-              </div>
-              <img class="line-7" src="https://c.animaapp.com/fYZgYs2E/img/line-36-1.svg" />
-              <img class="line-9" src="https://c.animaapp.com/fYZgYs2E/img/line-42-1.svg" />
-              <img class="line-10" src="https://c.animaapp.com/fYZgYs2E/img/line-44-1.svg" />
-              <img class="line-31" src="https://c.animaapp.com/fYZgYs2E/img/line-44-1.svg" />
-              <img class="line-12" src="https://c.animaapp.com/fYZgYs2E/img/line-44-1.svg" />
-            </div>
+          <!-- Sauces items -->
+          <div class="sauces-items">
+            <button class="sauce-item" onclick="toggleSelected(this)">Matsoni (Sour Cream)</button>
+            <button class="sauce-item" onclick="toggleSelected(this)">Felamushi</button>
           </div>
-          <div class="rectangle-3"></div>
-          <div class="rectangle-4"></div>
-          <div class="text-wrapper-77">New Order</div>
-          <div class="text-wrapper-78">Choose Items</div>
-          <img class="line-32" src="https://c.animaapp.com/fYZgYs2E/img/line-86.svg" />
-          <div class="rectangle-5"></div>
-          <div class="rectangle-6"></div>
-          <div class="rectangle-7"></div>
-          <div class="rectangle-8"></div>
+          <!-- Active selection buttons -->
+          <div class="group-45" onclick="toggleSelected(this)">
+            <div class="overlap-60"><div class="text-wrapper-95">Continue</div></div>
+          </div>
+          <div class="group-46" onclick="toggleSelected(this)">
+            <div class="overlap-60"><div class="text-wrapper-96">Preview</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="rectangle-8"></div>
+            <!-- Category buttons -->
           <button class="text-wrapper-79" data-category="salads" onclick="toggleSelected(this)">Salads</button>
           <button class="text-wrapper-80" data-category="soups" onclick="toggleSelected(this)">Soups</button>
           <button class="text-wrapper-81" data-category="main-dishes" onclick="toggleSelected(this)">Main Dishes</button>
@@ -373,216 +187,35 @@
           <img class="line-42" src="https://c.animaapp.com/fYZgYs2E/img/line-108.svg" />
           <img class="line-43" src="https://c.animaapp.com/fYZgYs2E/img/line-108.svg" />
 
-         <!-- Drinks items -->
-          <div class="group-11 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-35"><div class="text-wrapper-91">Sparkling Water</div></div>
-          </div>
-          <div class="group-12 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-36"><div class="text-wrapper-91">Lemonade Cup</div></div>
-          </div>
-          <div class="group-13 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-36"><div class="text-wrapper-91">Lemonade Jug</div></div>
-          </div>
-          <div class="group-14 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-37"><div class="text-wrapper-91">Coca-Cola</div></div>
-          </div>
-          <div class="group-15 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-38"><div class="text-wrapper-92">Juice (Cup)</div></div>
-          </div>
-          <div class="group-16 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-38"><div class="text-wrapper-93">Juice (Jug)</div></div>
-          </div>
-          <div class="group-17 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-39"><div class="text-wrapper-91">Americano</div></div>
-          </div>
-          <div class="group-18 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-40"><div class="text-wrapper-91">Leffe Mug</div></div>
-          </div>
-          <div class="group-19 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-41"><div class="text-wrapper-91">Mtsvane (Dry)</div></div>
-          </div>
-          <div class="group-20 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-42"><div class="text-wrapper-91">Tvishi (Semi-Sweet)</div></div>
-          </div>
-          <div class="group-21 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-43"><div class="text-wrapper-91">White Wine Glass</div></div>
-          </div>
-          <div class="group-22 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-44"><div class="text-wrapper-91">Sapheravi (Dry)</div></div>
-          </div>
-          <div class="group-23 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-44"><div class="text-wrapper-91">Mukuzani (Dry)</div></div>
-          </div>
-          <div class="group-24 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-45"><div class="text-wrapper-94">Alazani Valley (Semi-Sweet)</div></div>
-          </div>
-          <div class="group-25 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-46"><div class="text-wrapper-94">Kindzmaruli (Semi-Sweet)</div></div>
-          </div>
-          <div class="group-26 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-47"><div class="text-wrapper-94">Sapheravi (Dry) Glass</div></div>
-          </div>
-          <div class="group-27 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-48"><div class="text-wrapper-94">Sapheravi (Dry) 1L</div></div>
-          </div>
-          <div class="group-28 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-49"><div class="text-wrapper-94">Rasberry Wine</div></div>
-          </div>
-          <div class="group-29 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-44"><div class="text-wrapper-91">Tsinandali (Dry)</div></div>
-          </div>
-          <div class="group-30 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-50"><div class="text-wrapper-91">Kisi (Dry)</div></div>
-          </div>
-          <div class="group-31 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-51"><div class="text-wrapper-91">Khikhvi (Dry)</div></div>
-          </div>
-          <div class="group-32 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-45"><div class="text-wrapper-91">Alazani Valley (Semi-Sweet)</div></div>
-          </div>
-          <div class="group-33 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-52"><div class="text-wrapper-91">Argo Mug</div></div>
-          </div>
-          <div class="group-34 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-43"><div class="text-wrapper-91">Argo Large Bottle</div></div>
-          </div>
-          <div class="group-35 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-43"><div class="text-wrapper-91">Argo Black Bottle</div></div>
-          </div>
-          <div class="group-36 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-47"><div class="text-wrapper-91">Chacha Classic (Cup)</div></div>
-          </div>
-          <div class="group-37 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-53"><div class="text-wrapper-91">Chacha Classic (Bottle)</div></div>
-          </div>
-          <div class="group-38 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-54"><div class="text-wrapper-91">Espresso</div></div>
-          </div>
-          <div class="group-39 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-55"><div class="text-wrapper-91">Cappuchino</div></div>
-          </div>
-          <div class="group-40 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-56"><div class="text-wrapper-91">Latte</div></div>
-          </div>
-          <div class="group-41 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-57"><div class="text-wrapper-91">Turkish Coffee</div></div>
-          </div>
-          <div class="group-42 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-52"><div class="text-wrapper-91">Tea (Cup)</div></div>
-          </div>
-          <div class="group-43 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-58"><div class="text-wrapper-91">Tea (Jug)</div></div>
-          </div>
-          <div class="group-44 drinks-items" onclick="toggleHighlight(this)">
-            <div class="overlap-59"><div class="text-wrapper-91">Water</div></div>
-          </div>
-          <div class="group-45" onclick="toggleSelected(this)">
-            <div class="overlap-60"><div class="text-wrapper-95">Continue</div></div>
-          </div>
-          <div class="group-46" onclick="toggleSelected(this)">
-            <div class="overlap-60"><div class="text-wrapper-96">Preview</div></div>
           </div>
 
-          <!-- Appetizers items -->
-          <div class="group-47 appetizers-items" onclick="toggleHighlight(this)">
-            <div class="overlap-38"><div class="text-wrapper-94">Pickle Board</div></div>
+              <script>
+                function toggleHighlight(element) {
+                  element.classList.toggle('selected');
+                }
+              
+                function toggleSelected(element) {
+                  // Remove 'selected' class from all buttons
+                  const buttons = document.querySelectorAll('button');
+                  buttons.forEach(button => button.classList.remove('selected'));
+              
+                  // Add 'selected' class to the clicked button
+                  element.classList.add('selected');
+              
+                  // Get the selected category
+                  const category = element.getAttribute('data-category');
+              
+                  // Show or hide items based on the selected category
+                  const allItems = document.querySelectorAll('.drinks-items, .appetizers-items, .salad-items, .soups-items, .main-dishes-items, .from-the-oven-items, .khinkali-items, .boards-items, .garnish-items, .bread-items, .desserts-items, .sauces-items');
+                  allItems.forEach(item => item.style.display = 'none');
+              
+                  const selectedItems = document.querySelectorAll(`.${category}-items`);
+                  selectedItems.forEach(item => item.style.display = 'block');
+                }
+              </script>
+            </div>
           </div>
-          <div class="group-48 appetizers-items" onclick="toggleHighlight(this)">
-            <div class="overlap-38"><div class="text-wrapper-94">Sulguni</div></div>
-          </div>
-          <div class="group-49 appetizers-items" onclick="toggleHighlight(this)">
-            <div class="overlap-38"><div class="text-wrapper-94">Imeretian Cheese</div></div>
-          </div>
-          <div class="group-50 appetizers-items" onclick="toggleHighlight(this)">
-            <div class="overlap-38"><div class="text-wrapper-94">Imeretian Cheese</div></div>
-          </div>
-          <div class="group-51 appetizers-items" onclick="toggleHighlight(this)">
-            <div class="overlap-48"><div class="text-wrapper-91">Georgian Cheese Board</div></div>
         </div>
-        <div class="group-28 appetizers-items" onclick="toggleHighlight(this)">
-            <div class="overlap-49"><div class="text-wrapper-91">Imeretian Cheese</div></div>
-        </div>
-        <div class="group-29 appetizers-items" onclick="toggleHighlight(this)">
-            <div class="overlap-50"><div class="text-wrapper-91">Imeretian Cheese</div></div>
-        </div>
-        <div class="group-30 appetizers-items" onclick="toggleHighlight(this)">
-            <div class="overlap-51"><div class="text-wrapper-91">Sulguni</div></div>
-        </div>
-        <div class="group-32 appetizers-items" onclick="toggleHighlight(this)">
-            <div class="overlap-53"><div class="text-wrapper-91">Grated Cheese with Mint</div></div>
-        </div>
-        <div class="group-33 appetizers-items" onclick="toggleHighlight(this)">
-            <div class="overlap-54"><div class="text-wrapper-91">Eggplant with Walnuts</div></div>
-        </div>
-        
-        <!-- Salad Items -->
-        <!-- <div class="group-34 salad-items" onclick="toggleHighlight(this)">
-            <div class="overlap-55"><div class="text-wrapper-91">Green Salad</div></div>
-        </div>
-        <div class="group-35 salad-items" onclick="toggleHighlight(this)">
-            <div class="overlap-56"><div class="text-wrapper-91">Cucumber-Tomato Salad / Walnuts</div></div>
-        </div>
-        <div class="group-36 salad-items" onclick="toggleHighlight(this)">
-            <div class="overlap-57"><div class="text-wrapper-91">Caesar Salad</div></div>
-        </div>
-        <div class="group-37 salad-items" onclick="toggleHighlight(this)">
-            <div class="overlap-58"><div class="text-wrapper-91">Salad with Arugula</div></div>
-        </div>
-        
-        <div class="group-45" onclick="toggleSelected(this)">
-            <div class="overlap-60"><div class="text-wrapper-95">Continue</div></div>
-        </div>
-        <div class="group-46" onclick="toggleSelected(this)">
-            <div class="overlap-60"><div class="text-wrapper-96">Preview</div></div>
-        </div> -->
-          <script>
-            function toggleHighlight(element) {
-              element.classList.toggle('selected');
-            }
-
-            function toggleSelected(element) {
-              // Remove 'selected' class from all buttons
-              const buttons = document.querySelectorAll('button');
-              buttons.forEach(button => button.classList.remove('selected'));
-
-              // Add 'selected' class to the clicked button
-              element.classList.add('selected');
-
-              // Get the selected category
-              const category = element.getAttribute('data-category');
-
-              // Show or hide items based on the selected category
-              const allItems = document.querySelectorAll('.drinks-items, .appetizers-items');
-              allItems.forEach(item => item.style.display = 'none');
-
-              const selectedItems = document.querySelectorAll(`.${category}-items`);
-              selectedItems.forEach(item => item.style.display = 'block');
-            }
-            function updateTimeAndDate() {
-    const now = new Date();
+      </body>
+    </html>
     
-    // Format time as HH:MM
-    const hours = String(now.getHours()).padStart(2, '0');
-    const minutes = String(now.getMinutes()).padStart(2, '0');
-    const currentTime = `${hours}:${minutes}`;
-    
-    // Format date as Month Day, Year
-    const options = { month: 'long', day: 'numeric', year: 'numeric' };
-    const currentDate = now.toLocaleDateString(undefined, options);
-    
-    // Update the HTML elements
-    document.getElementById('current-time').textContent = currentTime;
-    document.getElementById('current-date').textContent = currentDate;
-  }
-
-  // Update time and date immediately
-  updateTimeAndDate();
-
-  // Update time and date every minute
-  setInterval(updateTimeAndDate, 60000);
-          </script>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
