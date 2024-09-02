@@ -216,7 +216,7 @@
           <img class="google-review-QR" src="https://c.animaapp.com/E0xlhHu1/img/google-review-qr-code-1@2x.png" />
         </div>
         <div class="overlap-10">
-          <button class="text-wrapper-102" onclick="showAdminCodePopup()">Close Order</button>
+          <button class="text-wrapper-102">Close Order</button>
         </div>
         <div class="overlap-11">
           <button class="text-wrapper-103" onclick="goBack()">Back</button>
@@ -225,36 +225,6 @@
       </div>
     </div>
     <script>
-      function goBack() {
-      window.location.href = '../index.html';
-    }
-
-        // Function to load CSS
-  function loadCSS(url) {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = url;
-    document.head.appendChild(link);
-  }
-
-  // Function to show admin code popup
-  function showAdminCodePopup() {
-    // Fetch and load admincodecheckout.html
-    fetch('admincodecheckout/admincodecheckout.html')
-      .then(response => response.text())
-      .then(data => {
-        const popupContainer = document.createElement('div');
-        popupContainer.innerHTML = data;
-        popupContainer.classList.add('popup-overlay');
-        document.body.appendChild(popupContainer);
-      })
-      .catch(error => console.error('Error loading admincodecheckout.html:', error));
-
-    // Load admincodecheckout/style.css
-    loadCSS('admincodecheckout/style.css');
-  }
-  
-
       function goBack() {
       window.location.href = '../index.html';
     }
