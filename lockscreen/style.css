@@ -35,6 +35,7 @@
   font-size: 30px;
   border: none;
   outline: none;
+  border-radius: inherit;
   background: transparent;
   color: #919191;
   font-family: "Inter", Helvetica;
