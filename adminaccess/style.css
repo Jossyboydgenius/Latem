@@ -102,3 +102,123 @@
   top: 553px;
   left: 1054px;
 }
+
+.adminaccess .rectangle-8 {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+.adminaccess .rectangle-9 {
+  position: absolute;
+  width: 636px;
+  height: 360px;
+  top: 341px;
+  left: 631px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.adminaccess .p {
+  position: absolute;
+  top: 383px;
+  left: 666px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #960000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.adminaccess .you-need {
+  position: absolute;
+  width: 578px;
+  top: 424px;
+  left: 666px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.adminaccess .span {
+  color: #000000;
+}
+
+.adminaccess .text-wrapper-53 {
+  color: #848484;
+  font-size: 10px;
+}
+
+.adminaccess .rectangle-10 {
+  position: absolute;
+  width: 316px;
+  height: 92px;
+  top: 526px;
+  left: 666px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adminaccess .admin-code-input {
+  width: 90%;
+  height: 70%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.adminaccess .rectangle-11 {
+  position: absolute;
+  width: 94px;
+  height: 92px;
+  top: 526px;
+  left: 998px;
+  border-radius: 8px;
+  border: 4px solid;
+  border-color: #860606;
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.adminaccess .rectangle-11:hover {
+  background-color: #f0f0f0; /* Add hover effect */
+}
+
+.adminaccess .line-28 {
+  position: absolute;
+  width: 43px;
+  height: 4px;
+  top: 570px;
+  left: 1015px;
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.adminaccess .line-28:hover {
+  background-color: #575757; /* Add hover effect */
+}
+
+.adminaccess .vector-2 {
+  position: absolute;
+  width: 19px;
+  height: 37px;
+  top: 553px;
+  left: 1054px;
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.adminaccess .vector-2:hover {
+  filter: brightness(0.8); /* Add hover effect */
+}
