@@ -1,0 +1,351 @@
+.orderdetails .text-wrapper-100 {
+  top: 16px;
+  left: 27px;
+  font-size: 17px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.orderdetails .group-20 {
+  position: absolute;
+  width: 133px;
+  height: 53px;
+  top: 869px;
+  left: 1466px;
+}
+
+.orderdetails .text-wrapper-101 {
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.orderdetails .rectangle-12 {
+  position: absolute;
+  width: 1644px;
+  height: 908px;
+  top: 47px;
+  left: 149px;
+  background-color: #00000099;
+  border-radius: 16px;
+}
+
+.orderdetails .rectangle-13 {
+  position: absolute;
+  width: 505px;
+  height: 302px;
+  top: 318px;
+  left: 701px;
+  background-color: #d9d9d9;
+  border-radius: 11px;
+}
+
+.orderdetails .text-wrapper-102 {
+  top: 365px;
+  left: 735px;
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.orderdetails .text-wrapper-103 {
+  top: 424px;
+  left: 737px;
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.orderdetails .group-21 {
+  position: absolute;
+  width: 41px;
+  height: 39px;
+  top: 359px;
+  left: 846px;
+}
+
+.orderdetails .text-wrapper-104 {
+  top: 7px;
+  left: 10px;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.orderdetails .vector {
+  top: 13px;
+  position: absolute;
+  width: 5px;
+  height: 4px;
+  left: 28px;
+}
+
+.orderdetails .vector-2 {
+  top: 20px;
+  position: absolute;
+  width: 5px;
+  height: 4px;
+  left: 28px;
+}
+
+.orderdetails .line-45 {
+  position: absolute;
+  width: 422px;
+  height: 1px;
+  top: 475px;
+  left: 741px;
+  object-fit: cover;
+}
+
+.orderdetails .line-46 {
+  position: absolute;
+  width: 422px;
+  height: 1px;
+  top: 501px;
+  left: 741px;
+  object-fit: cover;
+}
+
+.orderdetails .line-47 {
+  position: absolute;
+  width: 422px;
+  height: 1px;
+  top: 527px;
+  left: 741px;
+  object-fit: cover;
+}
+
+.orderdetails .line-48 {
+  position: absolute;
+  width: 422px;
+  height: 1px;
+  top: 553px;
+  left: 741px;
+  object-fit: cover;
+}
+
+.orderdetails .group-22 {
+  position: absolute;
+  width: 64px;
+  height: 26px;
+  top: 573px;
+  left: 1103px;
+}
+
+.orderdetails .overlap-19 {
+  position: relative;
+  width: 62px;
+  height: 26px;
+  background-color: #0093ff;
+  border-radius: 8px;
+}
+
+.orderdetails .text-wrapper-105 {
+  width: 38px;
+  top: 8px;
+  left: 12px;
+  font-size: 8px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.orderdetails .group-23 {
+  position: absolute;
+  width: 45px;
+  height: 26px;
+  top: 573px;
+  left: 1050px;
+}
+
+.orderdetails .overlap-20 {
+  position: relative;
+  width: 43px;
+  height: 26px;
+  background-color: #0093ff;
+  border-radius: 8px;
+}
+
+.orderdetails .text-wrapper-106 {
+  top: 8px;
+  left: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.back-button {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer; /* Add cursor pointer */
+  width: 100%; /* Ensure the button covers the entire overlap */
+  height: 100%; /* Ensure the button covers the entire overlap */
+}
+
+.orderdetails .overlap-20 {
+  position: relative;
+  width: 43px;
+  height: 26px;
+  background-color: #0093ff;
+  border-radius: 8px;
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.orderdetails .overlap-20:hover {
+  background-color: #007acc; /* Add hover effect */
+}
+
+.orderdetails .text-wrapper-106 {
+  top: 8px;
+  left: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.continue-button {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer; /* Add cursor pointer */
+  width: 100%; /* Ensure the button covers the entire overlap */
+  height: 100%; /* Ensure the button covers the entire overlap */
+}
+
+.orderdetails .overlap-19 {
+  position: relative;
+  width: 62px;
+  height: 26px;
+  background-color: #0093ff;
+  border-radius: 8px;
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.orderdetails .overlap-19:hover {
+  background-color: #007acc; /* Add hover effect */
+}
+
+.orderdetails .text-wrapper-105 {
+  width: 38px;
+  top: 8px;
+  left: 12px;
+  font-size: 8px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.orderdetails .text-wrapper-102 {
+  top: 365px;
+  left: 735px;
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.orderdetails .quantity {
+  position: absolute;
+  top: 365px;
+  left: 850px;
+  display: flex;
+  align-items: center;
+}
+
+.quantity-input {
+  width: 40px;
+  height: 40px;
+  margin-top: -7px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -moz-appearance: textfield; /* Remove default number input styling in Firefox */
+}
+
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Remove default number input styling in Chrome */
+  margin: 0;
+}
+
+.text-wrapper-103 {
+  top: 420px;
+  left: 735px;
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.note-inputs {
+  position: absolute;
+  top: 450px;
+  left: 735px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Add space between the input fields */
+}
+
+.note-input {
+  width: 429px;
+  padding: 1px 0px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  background: transparent;
+  color: #000;
+  box-sizing: border-box;
+}
