@@ -31,7 +31,8 @@
 .lockscreen .input-field {
   width: 90%; /* Adjust width to ensure no overflow */
   height: 60%;
-  padding: 10px 20px; /* Adjust padding to prevent overflow */
+  padding: 10px 0px;
+  margin-left: -40px;
   font-size: 30px;
   border: none;
   outline: none;
