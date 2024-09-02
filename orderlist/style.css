@@ -1,1731 +1,4 @@
-.element {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.element .overlap-wrapper {
-  background-color: #ffffff;
-  overflow: hidden;
-  width: 1920px;
-  height: 1080px;
-}
-
-.element .overlap {
-  position: relative;
-  width: 1948px;
-  height: 1135px;
-  left: -2px;
-}
-
-.element .rectangle {
-  position: absolute;
-  width: 1920px;
-  height: 52px;
-  top: 0;
-  left: 2px;
-  background-color: #d9d9d9;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-color: #000000;
-}
-
-.element .round-gala-logo {
-  position: absolute;
-  width: 43px;
-  height: 43px;
-  top: 5px;
-  left: 11px;
-  object-fit: cover;
-}
-
-.element .text-wrapper {
-  top: 16px;
-  left: 89px;
-  font-weight: 400;
-  font-size: 15px;
-  white-space: nowrap;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  color: #000000;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .div {
-  position: absolute;
-  top: 16px;
-  left: 216px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .text-wrapper-2 {
-  position: absolute;
-  top: 16px;
-  left: 373px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .text-wrapper-3 {
-  position: absolute;
-  top: 16px;
-  left: 800px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .text-wrapper-4 {
-  position: absolute;
-  top: 16px;
-  left: 983px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .text-wrapper-5 {
-  position: absolute;
-  top: 16px;
-  left: 1855px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .text-wrapper-6 {
-  position: absolute;
-  top: 16px;
-  left: 1721px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .text-wrapper-7 {
-  top: 16px;
-  left: 141px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  white-space: nowrap;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-8 {
-  left: 292px;
-  position: absolute;
-  top: 16px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .text-wrapper-9 {
-  left: 462px;
-  position: absolute;
-  top: 16px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .text-wrapper-10 {
-  top: 16px;
-  left: 944px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  white-space: nowrap;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-11 {
-  top: 16px;
-  left: 1071px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  white-space: nowrap;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .ellipse {
-  left: 185px;
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  top: 22px;
-  background-color: #23ff00;
-  border-radius: 4.5px;
-}
-
-.element .ellipse-2 {
-  left: 342px;
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  top: 22px;
-  background-color: #23ff00;
-  border-radius: 4.5px;
-}
-
-.element .ellipse-3 {
-  left: 512px;
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  top: 22px;
-  background-color: #23ff00;
-  border-radius: 4.5px;
-}
-
-.element .line {
-  width: 1px;
-  height: 16px;
-  top: 18px;
-  left: 204px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .img {
-  width: 1px;
-  height: 16px;
-  top: 18px;
-  left: 360px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-2 {
-  width: 1px;
-  height: 16px;
-  top: 18px;
-  left: 972px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-3 {
-  width: 1px;
-  height: 16px;
-  top: 18px;
-  left: 1844px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .group {
-  position: absolute;
-  width: 462px;
-  height: 483px;
-  top: 146px;
-  left: 1486px;
-}
-
-.element .overlap-group {
-  position: relative;
-  width: 408px;
-  height: 483px;
-  border-radius: 18px;
-  border: 2px solid;
-  border-color: #000000;
-}
-
-.element .text-wrapper-12 {
-  top: 18px;
-  left: 19px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  font-weight: 600;
-  color: #000000;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .text-wrapper-13 {
-  top: 72px;
-  left: 19px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .text-wrapper-14 {
-  position: absolute;
-  width: 125px;
-  top: 103px;
-  left: 19px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-2 {
-  position: absolute;
-  width: 102px;
-  height: 193px;
-  top: 74px;
-  left: 155px;
-}
-
-.element .text-wrapper-15 {
-  top: 31px;
-  left: 7px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-16 {
-  top: 50px;
-  left: 7px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-17 {
-  top: 69px;
-  left: 7px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-18 {
-  top: 88px;
-  left: 7px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-19 {
-  left: 7px;
-  font-weight: 400;
-  position: absolute;
-  top: 0;
-  font-family: "Inter", Helvetica;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .overlap-3 {
-  position: absolute;
-  width: 102px;
-  height: 193px;
-  top: 0;
-  left: 0;
-}
-
-.element .line-4 {
-  width: 102px;
-  height: 1px;
-  top: 21px;
-  left: 0;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-5 {
-  width: 1px;
-  height: 193px;
-  top: 0;
-  left: 0;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .text-wrapper-20 {
-  top: 122px;
-  left: 19px;
-  position: absolute;
-  width: 125px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-21 {
-  top: 141px;
-  left: 19px;
-  position: absolute;
-  width: 125px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-22 {
-  top: 160px;
-  left: 19px;
-  position: absolute;
-  width: 125px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-4 {
-  position: absolute;
-  width: 101px;
-  height: 26px;
-  top: 240px;
-  left: 21px;
-}
-
-.element .text-wrapper-23 {
-  top: 0;
-  font-weight: 400;
-  color: #575757;
-  position: absolute;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-24 {
-  top: 11px;
-  left: 0;
-  font-weight: 400;
-  color: #575757;
-  font-size: 12px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-25 {
-  position: absolute;
-  top: 11px;
-  left: 16px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #575757;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-5 {
-  position: absolute;
-  width: 127px;
-  height: 15px;
-  top: 450px;
-  left: 24px;
-}
-
-.element .text-wrapper-26 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 300;
-  color: #000000;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-27 {
-  position: absolute;
-  top: 0;
-  left: 79px;
-  font-family: "Inter", Helvetica;
-  font-weight: 300;
-  color: #ffd600;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .line-6 {
-  width: 1px;
-  height: 8px;
-  top: 2px;
-  left: 122px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .overlap-6 {
-  position: absolute;
-  width: 42px;
-  height: 15px;
-  top: 450px;
-  left: 154px;
-}
-
-.element .text-wrapper-28 {
-  top: 0;
-  left: 34px;
-  font-weight: 300;
-  color: #000000;
-  font-size: 12px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-7 {
-  position: absolute;
-  width: 74px;
-  height: 15px;
-  top: 450px;
-  left: 207px;
-}
-
-.element .text-wrapper-29 {
-  top: 0;
-  left: 66px;
-  font-weight: 300;
-  color: #000000;
-  font-size: 12px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-8 {
-  position: absolute;
-  width: 99px;
-  height: 15px;
-  top: 426px;
-  left: 23px;
-}
-
-.element .text-wrapper-30 {
-  top: 0;
-  left: 87px;
-  font-weight: 300;
-  color: #ffd600;
-  font-size: 12px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-9 {
-  position: absolute;
-  width: 57px;
-  height: 15px;
-  top: 450px;
-  left: 295px;
-}
-
-.element .text-wrapper-31 {
-  position: absolute;
-  top: 0;
-  left: 36px;
-  font-family: "Inter", Helvetica;
-  font-weight: 300;
-  color: #ffd600;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-10 {
-  position: absolute;
-  width: 74px;
-  height: 15px;
-  top: 426px;
-  left: 133px;
-}
-
-.element .text-wrapper-32 {
-  top: 0;
-  left: 46px;
-  font-weight: 300;
-  color: #000000;
-  font-size: 12px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-11 {
-  position: absolute;
-  width: 102px;
-  height: 193px;
-  top: 74px;
-  left: 257px;
-}
-
-.element .text-wrapper-33 {
-  position: absolute;
-  top: 0;
-  left: 7px;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .line-7 {
-  width: 170px;
-  height: 1px;
-  top: 48px;
-  left: 19px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-8 {
-  width: 134px;
-  height: 1px;
-  top: 93px;
-  left: 19px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-9 {
-  width: 364px;
-  height: 1px;
-  top: 442px;
-  left: 22px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-10 {
-  width: 1px;
-  height: 8px;
-  top: 450px;
-  left: 284px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-11 {
-  width: 1px;
-  height: 8px;
-  top: 426px;
-  left: 122px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-12 {
-  width: 1px;
-  height: 8px;
-  top: 450px;
-  left: 198px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-13 {
-  width: 130px;
-  height: 1px;
-  top: 234px;
-  left: 18px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .group-2 {
-  position: absolute;
-  width: 468px;
-  height: 483px;
-  top: 652px;
-  left: 1041px;
-}
-
-.element .overlap-12 {
-  position: absolute;
-  width: 408px;
-  height: 483px;
-  top: 0;
-  left: 0;
-  border-radius: 18px;
-  border: 2px solid;
-  border-color: #000000;
-}
-
-.element .overlap-13 {
-  position: absolute;
-  width: 236px;
-  height: 193px;
-  top: 74px;
-  left: 20px;
-}
-
-.element .text-wrapper-34 {
-  top: 0;
-  left: 0;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .text-wrapper-35 {
-  position: absolute;
-  width: 125px;
-  top: 31px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-36 {
-  top: 31px;
-  left: 142px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-37 {
-  top: 50px;
-  left: 142px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-38 {
-  top: 69px;
-  left: 142px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-39 {
-  top: 106px;
-  left: 142px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-40 {
-  top: 88px;
-  left: 142px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-41 {
-  top: 125px;
-  left: 142px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-42 {
-  top: 50px;
-  left: 0;
-  position: absolute;
-  width: 125px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-43 {
-  position: absolute;
-  width: 125px;
-  top: 69px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-44 {
-  top: 106px;
-  left: 2px;
-  position: absolute;
-  width: 125px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-45 {
-  position: absolute;
-  width: 125px;
-  top: 88px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-46 {
-  top: 125px;
-  left: 2px;
-  position: absolute;
-  width: 125px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-group-2 {
-  position: absolute;
-  width: 236px;
-  height: 193px;
-  top: 0;
-  left: 0;
-}
-
-.element .text-wrapper-47 {
-  top: 166px;
-  font-weight: 400;
-  color: #575757;
-  position: absolute;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-48 {
-  position: absolute;
-  top: 177px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #ff0000;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .line-14 {
-  width: 102px;
-  height: 1px;
-  top: 21px;
-  left: 134px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-15 {
-  width: 1px;
-  height: 193px;
-  top: 0;
-  left: 134px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .text-wrapper-49 {
-  left: 142px;
-  font-weight: 400;
-  position: absolute;
-  top: 0;
-  font-family: "Inter", Helvetica;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .line-16 {
-  width: 134px;
-  height: 1px;
-  top: 21px;
-  left: 0;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-17 {
-  width: 130px;
-  height: 1px;
-  top: 162px;
-  left: 0;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .overlap-14 {
-  width: 128px;
-  top: 450px;
-  left: 24px;
-  position: absolute;
-  height: 15px;
-}
-
-.element .text-wrapper-50 {
-  position: absolute;
-  top: 0;
-  left: 78px;
-  font-family: "Inter", Helvetica;
-  font-weight: 300;
-  color: #ff0000;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-51 {
-  top: 0;
-  left: 87px;
-  font-weight: 300;
-  color: #ff0000;
-  font-size: 12px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-15 {
-  position: absolute;
-  width: 58px;
-  height: 15px;
-  top: 450px;
-  left: 295px;
-}
-
-.element .text-wrapper-52 {
-  position: absolute;
-  top: 0;
-  left: 36px;
-  font-family: "Inter", Helvetica;
-  font-weight: 300;
-  color: #ff0000;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .line-18 {
-  width: 363px;
-  height: 1px;
-  top: -12252px;
-  left: 7962px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-19 {
-  width: 7px;
-  height: 1px;
-  top: -12243px;
-  left: 8085px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-20 {
-  width: 7px;
-  height: 1px;
-  top: -12243px;
-  left: 8225px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-21 {
-  width: 7px;
-  height: 1px;
-  top: -12267px;
-  left: 8063px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-22 {
-  width: 7px;
-  height: 1px;
-  top: -12243px;
-  left: 8139px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .overlap-group-wrapper {
-  position: absolute;
-  width: 486px;
-  height: 477px;
-  top: 146px;
-  left: 1038px;
-}
-
-.element .overlap-16 {
-  position: relative;
-  width: 408px;
-  height: 477px;
-  border-radius: 18px;
-  border: 4px solid;
-  border-color: #0081f8;
-}
-
-.element .text-wrapper-53 {
-  top: 16px;
-  left: 17px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  font-weight: 600;
-  color: #000000;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .overlap-17 {
-  position: absolute;
-  width: 236px;
-  height: 298px;
-  top: 74px;
-  left: 20px;
-}
-
-.element .text-wrapper-54 {
-  top: 107px;
-  left: 142px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-55 {
-  top: 126px;
-  left: 142px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-56 {
-  top: 145px;
-  left: 142px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-57 {
-  top: 172px;
-  left: 142px;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-58 {
-  position: absolute;
-  width: 125px;
-  top: 107px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-59 {
-  position: absolute;
-  width: 125px;
-  top: 126px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-60 {
-  position: absolute;
-  width: 125px;
-  top: 145px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-61 {
-  position: absolute;
-  width: 125px;
-  top: 164px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-18 {
-  position: absolute;
-  width: 236px;
-  height: 298px;
-  top: 0;
-  left: 0;
-}
-
-.element .text-wrapper-62 {
-  position: absolute;
-  top: 265px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #575757;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-63 {
-  top: 276px;
-  left: 0;
-  font-weight: 400;
-  color: #575757;
-  font-size: 12px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-64 {
-  position: absolute;
-  top: 276px;
-  left: 16px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #575757;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-65 {
-  top: 276px;
-  left: 52px;
-  font-weight: 400;
-  color: #575757;
-  font-size: 12px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-66 {
-  position: absolute;
-  top: 276px;
-  left: 79px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #575757;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .text-wrapper-67 {
-  position: absolute;
-  top: 283px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #575757;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .line-23 {
-  width: 1px;
-  height: 290px;
-  top: 0;
-  left: 134px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .text-wrapper-68 {
-  left: 142px;
-  font-weight: 500;
-  position: absolute;
-  top: 0;
-  font-family: "Inter", Helvetica;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .line-24 {
-  width: 130px;
-  height: 1px;
-  top: 260px;
-  left: 0;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .overlap-19 {
-  position: absolute;
-  width: 102px;
-  height: 290px;
-  top: 74px;
-  left: 257px;
-}
-
-.element .text-wrapper-69 {
-  position: absolute;
-  top: 172px;
-  left: 7px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-20 {
-  position: absolute;
-  width: 102px;
-  height: 290px;
-  top: 0;
-  left: 0;
-}
-
-.element .line-25 {
-  width: 1px;
-  height: 290px;
-  top: 0;
-  left: 0;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .overlap-group-3 {
-  position: absolute;
-  width: 124px;
-  height: 15px;
-  top: 450px;
-  left: 24px;
-}
-
-.element .text-wrapper-70 {
-  position: absolute;
-  top: 0;
-  left: 80px;
-  font-family: "Inter", Helvetica;
-  font-weight: 300;
-  color: #23ff00;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-21 {
-  position: absolute;
-  width: 364px;
-  height: 18px;
-  top: 426px;
-  left: 24px;
-}
-
-.element .overlap-22 {
-  position: absolute;
-  width: 99px;
-  height: 15px;
-  top: 0;
-  left: 0;
-}
-
-.element .text-wrapper-71 {
-  top: 0;
-  left: 87px;
-  font-weight: 300;
-  color: #05ff00;
-  font-size: 12px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .overlap-23 {
-  position: absolute;
-  width: 74px;
-  height: 15px;
-  top: 0;
-  left: 110px;
-}
-
-.element .line-26 {
-  width: 364px;
-  height: 1px;
-  top: 18px;
-  left: 0;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-27 {
-  width: 1px;
-  height: 8px;
-  top: 2px;
-  left: 102px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .overlap-24 {
-  position: absolute;
-  width: 67px;
-  height: 15px;
-  top: 450px;
-  left: 295px;
-}
-
-.element .text-wrapper-72 {
-  top: 0;
-  left: 36px;
-  font-weight: 300;
-  color: #23ff00;
-  font-size: 12px;
-  position: absolute;
-  font-family: "Inter", Helvetica;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .line-28 {
-  width: 170px;
-  height: 1px;
-  top: 46px;
-  left: 17px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-29 {
-  width: 1px;
-  height: 8px;
-  top: 448px;
-  left: 282px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .line-30 {
-  width: 1px;
-  height: 8px;
-  top: 448px;
-  left: 196px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.element .div-wrapper {
-  position: absolute;
-  width: 113px;
-  height: 30px;
-  top: 149px;
-  left: 751px;
-}
-
-.element .overlap-25 {
-  position: relative;
-  width: 111px;
-  height: 30px;
-}
-
-.element .rectangle-2 {
-  position: absolute;
-  width: 99px;
-  height: 30px;
-  top: 0;
-  left: 0;
-  border-radius: 3px;
-  border: 1px solid;
-  border-color: #313131;
-}
-
-.element .text-wrapper-73 {
-  position: absolute;
-  top: 9px;
-  left: 13px;
-  opacity: 0.7;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .group-3 {
-  position: absolute;
-  width: 109px;
-  height: 35px;
-  top: 204px;
-  left: 482px;
-}
-
-.element .overlap-26 {
-  position: relative;
-  width: 107px;
-  height: 35px;
-  border-radius: 3px;
-  border: 1px solid;
-  border-color: #313131;
-}
-
-.element .text-wrapper-74 {
-  position: absolute;
-  top: 8px;
-  left: 14px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .group-4 {
-  position: absolute;
-  width: 119px;
-  height: 35px;
-  top: 204px;
-  left: 604px;
-}
-
-.element .overlap-27 {
-  position: relative;
-  width: 117px;
-  height: 35px;
-  border-radius: 3px;
-  border: 1px solid;
-  border-color: #313131;
-}
-
-.element .text-wrapper-75 {
-  position: absolute;
-  top: 8px;
-  left: 13px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.element .group-5 {
-  position: absolute;
-  width: 103px;
-  height: 35px;
-  top: 204px;
-  left: 736px;
-}
-
-.element .overlap-28 {
-  position: relative;
-  width: 101px;
-  height: 35px;
-  border-radius: 3px;
-  border: 1px solid;
-  border-color: #313131;
-}
-
-.element .group-6 {
-  position: absolute;
-  width: 103px;
-  height: 35px;
-  top: 294px;
-  left: 482px;
-}
-
-.element .group-7 {
-  position: absolute;
-  width: 154px;
-  height: 35px;
-  top: 249px;
-  left: 482px;
-}
-
-.element .overlap-29 {
-  position: relative;
-  width: 152px;
-  height: 35px;
-  border-radius: 3px;
-  border: 1px solid;
-  border-color: #313131;
-}
-
-.element .group-8 {
-  position: absolute;
-  width: 124px;
-  height: 35px;
-  top: 249px;
-  left: 645px;
-}
-
-.element .overlap-30 {
-  position: relative;
-  width: 122px;
-  height: 35px;
-  border-radius: 3px;
-  border: 1px solid;
-  border-color: #313131;
-}
-
-.element .group-9 {
-  position: absolute;
-  width: 83px;
-  height: 27px;
-  top: 390px;
-  left: 685px;
-}
-
-.element .overlap-31 {
-  position: relative;
-  width: 81px;
-  height: 27px;
-  border-radius: 3px;
-  border: 1px solid;
-  border-color: #c80000;
-}
-
-.element .text-wrapper-76 {
-  position: absolute;
-  width: 57px;
-  top: 6px;
-  left: 13px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.element .group-10 {
-  position: absolute;
-  width: 486px;
-  height: 477px;
-  top: 143px;
-  left: 38px;
-}
-
-.element .overlap-32 {
-  position: relative;
-  width: 408px;
-  height: 477px;
-  border-radius: 18px;
-  border: 2px solid;
-  border-color: #000000;
-}
-
-.element .overlap-33 {
-  position: absolute;
-  width: 99px;
-  height: 15px;
-  top: 426px;
-  left: 24px;
-}
-
-.element .overlap-34 {
-  width: 74px;
-  top: 426px;
-  left: 134px;
-  position: absolute;
-  height: 15px;
-}
-
-.element .line-31 {
-  position: absolute;
-  width: 1px;
-  height: 8px;
-  top: 426px;
-  left: 124px;
-  object-fit: cover;
-}
-
-.element .rectangle-3 {
+.orderlist .rectangle-3 {
   position: absolute;
   width: 1921px;
   height: 1030px;
@@ -1735,7 +8,7 @@
   opacity: 0.5;
 }
 
-.element .rectangle-4 {
+.orderlist .rectangle-4 {
   position: absolute;
   width: 1644px;
   height: 908px;
@@ -1745,7 +18,7 @@
   border-radius: 16px;
 }
 
-.element .text-wrapper-77 {
+.orderlist .text-wrapper-77 {
   position: absolute;
   top: 125px;
   left: 184px;
@@ -1758,7 +31,7 @@
   white-space: nowrap;
 }
 
-.element .text-wrapper-78 {
+.orderlist .text-wrapper-78 {
   position: absolute;
   top: 203px;
   left: 184px;
@@ -1771,7 +44,7 @@
   white-space: nowrap;
 }
 
-.element .line-32 {
+.orderlist .line-32 {
   width: 418px;
   height: 1px;
   top: 162px;
@@ -1780,7 +53,7 @@
   object-fit: cover;
 }
 
-.element .rectangle-5 {
+.orderlist .rectangle-5 {
   position: absolute;
   width: 1563px;
   height: 659px;
@@ -1790,7 +63,7 @@
   border-radius: 9px;
 }
 
-.element .rectangle-6 {
+.orderlist .rectangle-6 {
   position: absolute;
   width: 186px;
   height: 582px;
@@ -1801,7 +74,7 @@
   box-shadow: inset 1px 1px 4px #00000040;
 }
 
-.element .rectangle-7 {
+.orderlist .rectangle-7 {
   position: absolute;
   width: 1284px;
   height: 582px;
@@ -1812,7 +85,7 @@
   box-shadow: inset 1px 1px 4px #00000040;
 }
 
-.element .rectangle-8 {
+.orderlist .rectangle-8 {
   position: absolute;
   width: 91px;
   height: 33px;
@@ -1822,7 +95,7 @@
   border-radius: 12.5px;
 }
 
-.element .text-wrapper-79 {
+.orderlist .text-wrapper-79 {
   position: absolute;
   top: 336px;
   left: 275px;
@@ -1835,7 +108,7 @@
   white-space: nowrap;
 }
 
-.element .text-wrapper-80 {
+.orderlist .text-wrapper-80 {
   position: absolute;
   top: 384px;
   left: 277px;
@@ -1848,7 +121,7 @@
   white-space: nowrap;
 }
 
-.element .text-wrapper-81 {
+.orderlist .text-wrapper-81 {
   position: absolute;
   top: 432px;
   left: 255px;
@@ -1861,7 +134,7 @@
   white-space: nowrap;
 }
 
-.element .text-wrapper-82 {
+.orderlist .text-wrapper-82 {
   position: absolute;
   top: 480px;
   left: 246px;
@@ -1874,7 +147,7 @@
   white-space: nowrap;
 }
 
-.element .text-wrapper-83 {
+.orderlist .text-wrapper-83 {
   position: absolute;
   top: 528px;
   left: 271px;
@@ -1887,7 +160,7 @@
   white-space: nowrap;
 }
 
-.element .text-wrapper-84 {
+.orderlist .text-wrapper-84 {
   position: absolute;
   top: 576px;
   left: 274px;
@@ -1900,7 +173,7 @@
   white-space: nowrap;
 }
 
-.element .text-wrapper-85 {
+.orderlist .text-wrapper-85 {
   position: absolute;
   top: 624px;
   left: 271px;
@@ -1913,7 +186,7 @@
   white-space: nowrap;
 }
 
-.element .text-wrapper-86 {
+.orderlist .text-wrapper-86 {
   top: 672px;
   left: 278px;
   font-weight: 600;
@@ -1926,7 +199,7 @@
   line-height: normal;
 }
 
-.element .text-wrapper-87 {
+.orderlist .text-wrapper-87 {
   position: absolute;
   top: 720px;
   left: 267px;
@@ -1939,7 +212,7 @@
   white-space: nowrap;
 }
 
-.element .text-wrapper-88 {
+.orderlist .text-wrapper-88 {
   position: absolute;
   top: 816px;
   left: 276px;
@@ -1952,7 +225,7 @@
   white-space: nowrap;
 }
 
-.element .text-wrapper-89 {
+.orderlist .text-wrapper-89 {
   position: absolute;
   top: 768px;
   left: 272px;
@@ -1965,7 +238,7 @@
   white-space: nowrap;
 }
 
-.element .line-33 {
+.orderlist .line-33 {
   width: 53px;
   height: 1px;
   top: 321px;
@@ -1974,7 +247,7 @@
   object-fit: cover;
 }
 
-.element .line-34 {
+.orderlist .line-34 {
   width: 53px;
   height: 1px;
   top: 369px;
@@ -1983,7 +256,7 @@
   object-fit: cover;
 }
 
-.element .line-35 {
+.orderlist .line-35 {
   width: 53px;
   height: 1px;
   top: 417px;
@@ -1992,7 +265,7 @@
   object-fit: cover;
 }
 
-.element .line-36 {
+.orderlist .line-36 {
   width: 53px;
   height: 1px;
   top: 465px;
@@ -2001,7 +274,7 @@
   object-fit: cover;
 }
 
-.element .line-37 {
+.orderlist .line-37 {
   width: 53px;
   height: 1px;
   top: 513px;
@@ -2010,7 +283,7 @@
   object-fit: cover;
 }
 
-.element .line-38 {
+.orderlist .line-38 {
   width: 53px;
   height: 1px;
   top: 561px;
@@ -2019,7 +292,7 @@
   object-fit: cover;
 }
 
-.element .line-39 {
+.orderlist .line-39 {
   width: 53px;
   height: 1px;
   top: 609px;
@@ -2028,7 +301,7 @@
   object-fit: cover;
 }
 
-.element .line-40 {
+.orderlist .line-40 {
   width: 53px;
   height: 1px;
   top: 657px;
@@ -2037,7 +310,7 @@
   object-fit: cover;
 }
 
-.element .line-41 {
+.orderlist .line-41 {
   width: 53px;
   height: 1px;
   top: 705px;
@@ -2046,7 +319,7 @@
   object-fit: cover;
 }
 
-.element .line-42 {
+.orderlist .line-42 {
   width: 53px;
   height: 1px;
   top: 801px;
@@ -2055,7 +328,7 @@
   object-fit: cover;
 }
 
-.element .line-43 {
+.orderlist .line-43 {
   width: 53px;
   height: 1px;
   top: 753px;
@@ -2064,7 +337,7 @@
   object-fit: cover;
 }
 
-.element .text-wrapper-90 {
+.orderlist .text-wrapper-90 {
   position: absolute;
   top: 288px;
   left: 260px;
@@ -2077,7 +350,7 @@
   white-space: nowrap;
 }
 
-.element .group-11 {
+.orderlist .group-11 {
   position: absolute;
   width: 153px;
   height: 47px;
@@ -2085,7 +358,7 @@
   left: 462px;
 }
 
-.element .overlap-35 {
+.orderlist .overlap-35 {
   position: relative;
   width: 151px;
   height: 47px;
@@ -2093,7 +366,7 @@
   border-radius: 9px;
 }
 
-.element .text-wrapper-91 {
+.orderlist .text-wrapper-91 {
   position: absolute;
   top: 14px;
   left: 16px;
@@ -2106,7 +379,7 @@
   white-space: nowrap;
 }
 
-.element .group-12 {
+.orderlist .group-12 {
   position: absolute;
   width: 146px;
   height: 47px;
@@ -2114,7 +387,7 @@
   left: 462px;
 }
 
-.element .overlap-36 {
+.orderlist .overlap-36 {
   position: relative;
   width: 144px;
   height: 47px;
@@ -2122,7 +395,7 @@
   border-radius: 9px;
 }
 
-.element .group-13 {
+.orderlist .group-13 {
   position: absolute;
   width: 146px;
   height: 47px;
@@ -2130,7 +403,7 @@
   left: 462px;
 }
 
-.element .group-14 {
+.orderlist .group-14 {
   position: absolute;
   width: 117px;
   height: 47px;
@@ -2138,7 +411,7 @@
   left: 462px;
 }
 
-.element .overlap-37 {
+.orderlist .overlap-37 {
   position: relative;
   width: 115px;
   height: 47px;
@@ -2146,7 +419,7 @@
   border-radius: 9px;
 }
 
-.element .group-15 {
+.orderlist .group-15 {
   position: absolute;
   width: 123px;
   height: 47px;
@@ -2154,28 +427,28 @@
   left: 462px;
 }
 
-.element .overlap-38 {
+.orderlist .overlap-38 {
   position: relative;
   width: 121px;
   height: 47px;
   background-color: #d9d9d9;
   border-radius: 9px;
 }
-.element .overlap-61 {
+.orderlist .overlap-61 {
   position: relative;
   width: 121px;
   height: 47px;
   background-color: #d9d9d9;
   border-radius: 9px;
 }
-.element .overlap-62 {
+.orderlist .overlap-62 {
   position: relative;
   width: 121px;
   height: 47px;
   background-color: #d9d9d9;
   border-radius: 9px;
 }
-.element .overlap-63 {
+.orderlist .overlap-63 {
   position: relative;
   width: 121px;
   height: 47px;
@@ -2183,7 +456,7 @@
   border-radius: 9px;
 }
 
-.element .text-wrapper-92 {
+.orderlist .text-wrapper-92 {
   width: 97px;
   position: absolute;
   top: 14px;
@@ -2196,7 +469,7 @@
   line-height: normal;
 }
 
-.element .group-16 {
+.orderlist .group-16 {
   position: absolute;
   width: 123px;
   height: 47px;
@@ -2204,7 +477,7 @@
   left: 462px;
 }
 
-.element .group-47 {
+.orderlist .group-47 {
   position: absolute;
   width: 123px;
   height: 47px;
@@ -2212,7 +485,7 @@
   left: 462px;
 }
 
-.element .group-48 {
+.orderlist .group-48 {
   position: absolute;
   width: 123px;
   height: 47px;
@@ -2220,7 +493,7 @@
   left: 462px;
 }
 
-.element .group-49 {
+.orderlist .group-49 {
   position: absolute;
   width: 123px;
   height: 47px;
@@ -2228,7 +501,7 @@
   left: 462px;
 }
 
-.element .group-50 {
+.orderlist .group-50 {
   position: absolute;
   width: 143px;
   height: 47px;
@@ -2236,7 +509,7 @@
   left: 462px;
 }
 
-.element .group-50 {
+.orderlist .group-50 {
   position: absolute;
   width: 123px;
   height: 47px;
@@ -2244,7 +517,7 @@
   left: 462px;
 }
 
-.element .text-wrapper-93 {
+.orderlist .text-wrapper-93 {
   width: 94px;
   position: absolute;
   top: 14px;
@@ -2256,7 +529,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
-.element .text-wrapper-99 {
+.orderlist .text-wrapper-99 {
   width: 94px;
   position: absolute;
   top: 14px;
@@ -2268,7 +541,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
-.element .text-wrapper-97 {
+.orderlist .text-wrapper-97 {
   width: 94px;
   position: absolute;
   top: 14px;
@@ -2280,7 +553,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
-.element .text-wrapper-98 {
+.orderlist .text-wrapper-98 {
   width: 94px;
   position: absolute;
   top: 14px;
@@ -2293,7 +566,7 @@
   line-height: normal;
 }
 
-.element .group-17 {
+.orderlist .group-17 {
   position: absolute;
   width: 113px;
   height: 47px;
@@ -2301,7 +574,7 @@
   left: 558px;
 }
 
-.element .overlap-39 {
+.orderlist .overlap-39 {
   position: relative;
   width: 111px;
   height: 47px;
@@ -2309,7 +582,7 @@
   border-radius: 9px;
 }
 
-.element .group-18 {
+.orderlist .group-18 {
   position: absolute;
   width: 108px;
   height: 47px;
@@ -2317,7 +590,7 @@
   left: 682px;
 }
 
-.element .overlap-40 {
+.orderlist .overlap-40 {
   position: relative;
   width: 106px;
   height: 47px;
@@ -2325,7 +598,7 @@
   border-radius: 9px;
 }
 
-.element .group-19 {
+.orderlist .group-19 {
   position: absolute;
   width: 135px;
   height: 47px;
@@ -2333,7 +606,7 @@
   left: 801px;
 }
 
-.element .overlap-41 {
+.orderlist .overlap-41 {
   position: relative;
   width: 133px;
   height: 47px;
@@ -2341,7 +614,7 @@
   border-radius: 9px;
 }
 
-.element .group-20 {
+.orderlist .group-20 {
   position: absolute;
   width: 179px;
   height: 47px;
@@ -2349,7 +622,7 @@
   left: 945px;
 }
 
-.element .overlap-42 {
+.orderlist .overlap-42 {
   position: relative;
   width: 177px;
   height: 47px;
@@ -2357,7 +630,7 @@
   border-radius: 9px;
 }
 
-.element .group-21 {
+.orderlist .group-21 {
   position: absolute;
   width: 161px;
   height: 47px;
@@ -2365,7 +638,7 @@
   left: 1014px;
 }
 
-.element .overlap-43 {
+.orderlist .overlap-43 {
   position: relative;
   width: 159px;
   height: 47px;
@@ -2373,7 +646,7 @@
   border-radius: 9px;
 }
 
-.element .group-22 {
+.orderlist .group-22 {
   position: absolute;
   width: 145px;
   height: 47px;
@@ -2381,7 +654,7 @@
   left: 1040px;
 }
 
-.element .overlap-44 {
+.orderlist .overlap-44 {
   position: relative;
   width: 143px;
   height: 47px;
@@ -2389,7 +662,7 @@
   border-radius: 9px;
 }
 
-.element .group-23 {
+.orderlist .group-23 {
   position: absolute;
   width: 147px;
   height: 47px;
@@ -2397,7 +670,7 @@
   left: 1015px;
 }
 
-.element .group-24 {
+.orderlist .group-24 {
   position: absolute;
   width: 233px;
   height: 47px;
@@ -2405,7 +678,7 @@
   left: 937px;
 }
 
-.element .overlap-45 {
+.orderlist .overlap-45 {
   position: relative;
   width: 231px;
   height: 47px;
@@ -2413,7 +686,7 @@
   border-radius: 9px;
 }
 
-.element .text-wrapper-94 {
+.orderlist .text-wrapper-94 {
   position: absolute;
   top: 14px;
   left: 13px;
@@ -2426,7 +699,7 @@
   white-space: nowrap;
 }
 
-.element .group-25 {
+.orderlist .group-25 {
   position: absolute;
   width: 222px;
   height: 47px;
@@ -2434,7 +707,7 @@
   left: 922px;
 }
 
-.element .overlap-46 {
+.orderlist .overlap-46 {
   position: relative;
   width: 220px;
   height: 47px;
@@ -2442,7 +715,7 @@
   border-radius: 9px;
 }
 
-.element .group-26 {
+.orderlist .group-26 {
   position: absolute;
   width: 189px;
   height: 47px;
@@ -2450,7 +723,7 @@
   left: 950px;
 }
 
-.element .overlap-47 {
+.orderlist .overlap-47 {
   position: relative;
   width: 187px;
   height: 47px;
@@ -2458,7 +731,7 @@
   border-radius: 9px;
 }
 
-.element .group-27 {
+.orderlist .group-27 {
   position: absolute;
   width: 165px;
   height: 47px;
@@ -2466,7 +739,7 @@
   left: 1136px;
 }
 
-.element .overlap-48 {
+.orderlist .overlap-48 {
   position: relative;
   width: 163px;
   height: 47px;
@@ -2474,7 +747,7 @@
   border-radius: 9px;
 }
 
-.element .group-28 {
+.orderlist .group-28 {
   position: absolute;
   width: 137px;
   height: 47px;
@@ -2482,7 +755,7 @@
   left: 1186px;
 }
 
-.element .overlap-49 {
+.orderlist .overlap-49 {
   position: relative;
   width: 135px;
   height: 47px;
@@ -2490,7 +763,7 @@
   border-radius: 9px;
 }
 
-.element .group-29 {
+.orderlist .group-29 {
   position: absolute;
   width: 145px;
   height: 47px;
@@ -2498,7 +771,7 @@
   left: 859px;
 }
 
-.element .group-30 {
+.orderlist .group-30 {
   position: absolute;
   width: 97px;
   height: 47px;
@@ -2506,7 +779,7 @@
   left: 930px;
 }
 
-.element .overlap-50 {
+.orderlist .overlap-50 {
   position: relative;
   width: 95px;
   height: 47px;
@@ -2514,7 +787,7 @@
   border-radius: 9px;
 }
 
-.element .group-31 {
+.orderlist .group-31 {
   position: absolute;
   width: 128px;
   height: 47px;
@@ -2522,7 +795,7 @@
   left: 874px;
 }
 
-.element .overlap-51 {
+.orderlist .overlap-51 {
   position: relative;
   width: 126px;
   height: 47px;
@@ -2530,7 +803,7 @@
   border-radius: 9px;
 }
 
-.element .group-32 {
+.orderlist .group-32 {
   position: absolute;
   width: 233px;
   height: 47px;
@@ -2538,7 +811,7 @@
   left: 707px;
 }
 
-.element .group-33 {
+.orderlist .group-33 {
   position: absolute;
   width: 104px;
   height: 47px;
@@ -2546,7 +819,7 @@
   left: 744px;
 }
 
-.element .overlap-52 {
+.orderlist .overlap-52 {
   position: relative;
   width: 102px;
   height: 47px;
@@ -2554,7 +827,7 @@
   border-radius: 9px;
 }
 
-.element .group-34 {
+.orderlist .group-34 {
   position: absolute;
   width: 161px;
   height: 47px;
@@ -2562,7 +835,7 @@
   left: 756px;
 }
 
-.element .group-35 {
+.orderlist .group-35 {
   position: absolute;
   width: 161px;
   height: 47px;
@@ -2570,7 +843,7 @@
   left: 702px;
 }
 
-.element .group-36 {
+.orderlist .group-36 {
   position: absolute;
   width: 189px;
   height: 47px;
@@ -2578,7 +851,7 @@
   left: 739px;
 }
 
-.element .group-37 {
+.orderlist .group-37 {
   position: absolute;
   width: 202px;
   height: 47px;
@@ -2586,7 +859,7 @@
   left: 707px;
 }
 
-.element .overlap-53 {
+.orderlist .overlap-53 {
   position: relative;
   width: 200px;
   height: 47px;
@@ -2594,7 +867,7 @@
   border-radius: 9px;
 }
 
-.element .group-38 {
+.orderlist .group-38 {
   position: absolute;
   width: 103px;
   height: 47px;
@@ -2602,7 +875,7 @@
   left: 627px;
 }
 
-.element .overlap-54 {
+.orderlist .overlap-54 {
   position: relative;
   width: 101px;
   height: 47px;
@@ -2610,7 +883,7 @@
   border-radius: 9px;
 }
 
-.element .group-39 {
+.orderlist .group-39 {
   position: absolute;
   width: 121px;
   height: 47px;
@@ -2618,7 +891,7 @@
   left: 620px;
 }
 
-.element .overlap-55 {
+.orderlist .overlap-55 {
   position: relative;
   width: 119px;
   height: 47px;
@@ -2626,7 +899,7 @@
   border-radius: 9px;
 }
 
-.element .group-40 {
+.orderlist .group-40 {
   position: absolute;
   width: 70px;
   height: 47px;
@@ -2634,7 +907,7 @@
   left: 620px;
 }
 
-.element .overlap-56 {
+.orderlist .overlap-56 {
   position: relative;
   width: 68px;
   height: 47px;
@@ -2642,7 +915,7 @@
   border-radius: 9px;
 }
 
-.element .group-41 {
+.orderlist .group-41 {
   position: absolute;
   width: 139px;
   height: 47px;
@@ -2650,7 +923,7 @@
   left: 591px;
 }
 
-.element .overlap-57 {
+.orderlist .overlap-57 {
   position: relative;
   width: 137px;
   height: 47px;
@@ -2658,7 +931,7 @@
   border-radius: 9px;
 }
 
-.element .group-42 {
+.orderlist .group-42 {
   position: absolute;
   width: 104px;
   height: 47px;
@@ -2666,7 +939,7 @@
   left: 594px;
 }
 
-.element .group-43 {
+.orderlist .group-43 {
   position: absolute;
   width: 101px;
   height: 47px;
@@ -2674,7 +947,7 @@
   left: 594px;
 }
 
-.element .overlap-58 {
+.orderlist .overlap-58 {
   position: relative;
   width: 99px;
   height: 47px;
@@ -2682,7 +955,7 @@
   border-radius: 9px;
 }
 
-.element .group-44 {
+.orderlist .group-44 {
   position: absolute;
   width: 80px;
   height: 47px;
@@ -2690,7 +963,7 @@
   left: 462px;
 }
 
-.element .overlap-59 {
+.orderlist .overlap-59 {
   position: relative;
   width: 78px;
   height: 47px;
@@ -2698,15 +971,15 @@
   border-radius: 9px;
 }
 
-.element .group-45 {
+.orderlist .group-45 {
   position: absolute;
   width: 133px;
   height: 53px;
-  top: 920px;
-  left: 1619px;
+  top: 645px;
+  left: 1035px;
 }
 
-.element .overlap-60 {
+.orderlist .overlap-60 {
   position: relative;
   width: 131px;
   height: 53px;
@@ -2714,7 +987,7 @@
   border-radius: 8px;
 }
 
-.element .text-wrapper-95 {
+.orderlist .text-wrapper-95 {
   position: absolute;
   top: 16px;
   left: 27px;
@@ -2726,15 +999,15 @@
   line-height: normal;
 }
 
-.element .group-46 {
+.orderlist .group-46 {
   position: absolute;
   width: 133px;
   height: 53px;
-  top: 920px;
-  left: 1468px;
+  top: 645px;
+  left: 865px;
 }
 
-.element .text-wrapper-96 {
+.orderlist .text-wrapper-96 {
   position: absolute;
   top: 16px;
   left: 32px;
@@ -2860,9 +1133,20 @@
   display: none;
 }
 
-.drinks-items,
-.appetizers-items {
-  display: none; /* Hide items by default */
+/* Hide items by default */
+.appetizers-items,
+.salad-items,
+.soups-items,
+.main-dishes-items,
+.from-the-oven-items,
+.khinkali-items,
+.boards-items,
+.garnish-items,
+.bread-items,
+.desserts-items,
+.sauces-items,
+.drinks-items {
+  display: none;
 }
 
 .group-34 .overlap-55,
@@ -2890,4 +1174,691 @@
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+}
+
+
+/* Appetizers items styles */
+.appetizers-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appetizer-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.appetizer-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Existing styles */
+.admincodecheckout .rectangle-10 {
+  position: absolute;
+  width: 1920px;
+  height: 1030px;
+  top: 50px;
+  left: 0;
+  background-color: #00000099;
+}
+
+.admincodecheckout .rectangle-11 {
+  position: absolute;
+  width: 636px;
+  height: 360px;
+  top: 341px;
+  left: 631px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.admincodecheckout .text-wrapper-100 {
+  position: absolute;
+  top: 383px;
+  left: 666px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #960000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.admincodecheckout .text-wrapper-101 {
+  position: absolute;
+  width: 578px;
+  top: 424px;
+  left: 666px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.admincodecheckout .rectangle-12 {
+  position: absolute;
+  width: 316px;
+  height: 92px;
+  top: 526px;
+  left: 666px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.admincodecheckout .rectangle-12:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.admincodecheckout .input-field {
+  width: 90%; /* Adjust width to ensure no overflow */
+  height: 60%;
+  padding: 10px 20px; /* Adjust padding to prevent overflow */
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #575757;
+  font-family: "Inter", Helvetica;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.admincodecheckout .rectangle-13 {
+  position: absolute;
+  width: 94px;
+  height: 92px;
+  top: 526px;
+  left: 998px;
+  border-radius: 8px;
+  border: 4px solid;
+  border-color: #860606;
+}
+
+.admincodecheckout .text-wrapper-102 {
+  position: absolute;
+  top: 559px;
+  left: 691px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #575757;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.admincodecheckout .line-30 {
+  position: absolute;
+  width: 43px;
+  height: 4px;
+  top: 570px;
+  left: 1015px;
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.admincodecheckout .vector-2 {
+  position: absolute;
+  width: 19px;
+  height: 37px;
+  top: 553px;
+  left: 1054px;
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Appetizers items styles */
+.appetizers-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.appetizer-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+.appetizer-item:hover {
+  background-color: #f0f0f0;
+}
+
+.appetizer-item.selected {
+  background-color: #007bff;
+  color: #ffffff; /* Optional: Change text color when selected */
+}
+
+/* Drinks items styles */
+.drinks-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.drink-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+.drink-item:hover {
+  background-color: #f0f0f0;
+}
+
+.drink-item.selected {
+  background-color: #007bff;
+  color: #ffffff; /* Optional: Change text color when selected */
+}
+
+
+
+/* salads items styles */
+.salad-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.salad-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+.salads-item:hover {
+  background-color: #f0f0f0;
+}
+
+.salads-item.selected {
+  background-color: #007bff;
+  color: #ffffff; /* Optional: Change text color when selected */
+}
+
+
+/* Soup items styles */
+.soups-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.soup-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+.soup-item:hover {
+  background-color: #f0f0f0;
+}
+
+.soup-item.selected {
+  background-color: #007bff;
+  color: #ffffff; /* Optional: Change text color when selected */
+}
+
+
+/* Main Dishes items styles */
+.main-dishes-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.main-dish-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+.main-dish-item:hover {
+  background-color: #f0f0f0;
+}
+
+.main-dish-item.selected {
+  background-color: #007bff;
+  color: #ffffff; /* Optional: Change text color when selected */
+}
+
+/* From the Oven items styles */
+.from-the-oven-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.from-the-oven-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+.from-the-oven-item:hover {
+  background-color: #f0f0f0;
+}
+
+.from-the-oven-item.selected {
+  background-color: #007bff;
+  color: #ffffff; /* Optional: Change text color when selected */
+}
+
+
+/* Khinkali items styles */
+.khinkali-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.khinkali-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+
+/* Board items styles */
+.boards-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.board-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+.board-item:hover {
+  background-color: #f0f0f0;
+}
+
+.board-item.selected {
+  background-color: #007bff;
+  color: #ffffff; /* Optional: Change text color when selected */
+}
+
+
+/* Garnish items styles */
+.garnish-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.garnish-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+.garnish-item:hover {
+  background-color: #f0f0f0;
+}
+
+.garnish-item.selected {
+  background-color: #007bff;
+  color: #ffffff; /* Optional: Change text color when selected */
+}
+
+
+/* Bread items styles */
+.bread-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.bread-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+.bread-item:hover {
+  background-color: #f0f0f0;
+}
+
+.bread-item.selected {
+  background-color: #007bff;
+  color: #ffffff; /* Optional: Change text color when selected */
+}
+
+/* Desserts items styles */
+.desserts-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.dessert-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+.dessert-item:hover {
+  background-color: #f0f0f0;
+}
+
+.dessert-item.selected {
+  background-color: #007bff;
+  color: #ffffff; /* Optional: Change text color when selected */
+}
+
+/* Sauces items styles */
+.sauces-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.sauce-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+.sauce-item:hover {
+  background-color: #f0f0f0;
+}
+
+.sauce-item.selected {
+  background-color: #007bff;
+  color: #ffffff; /* Optional: Change text color when selected */
+}
+
+/* salads items styles */
+.salads-items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.salads-item {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start (left) */
+  border: none;
+}
+
+.salad-item:hover {
+  background-color: #f0f0f0;
+}
+
+.salads-item.selected {
+  background-color: #007bff;
+  color: #ffffff; /* Optional: Change text color when selected */
+}
+
+.item-container {
+  /* position: absolute; */
+  width: 1284px;
+  height: 582px;
+  top: 270px;
+  left: 417px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: inset 1px 1px 4px #00000040;
+  overflow: auto; /* Add this line to handle overflow */
+  padding: 20px; /* Optional: Add padding for better spacing */
 }
