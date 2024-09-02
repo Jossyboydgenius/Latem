@@ -73,6 +73,11 @@
 }
 
 .input-field.error {
-  border: 1px solid red;
+  border: 1px solid transparent;
+  color: red;
+  border-radius: 15px;
+}
+
+.input-field.error::placeholder {
   color: red;
 }
