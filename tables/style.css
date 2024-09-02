@@ -3,7 +3,7 @@
   position: absolute;
   width: 1920px;
   height: 1028px;
-  top: 0;
+  top: 52px; /* Change back to zero incase it cases issues */
   left: 0;
   background-color: #000000;
   opacity: 0.5;
@@ -80,6 +80,7 @@
   top: 739px;
   left: 221px;
   background-color: #787878;
+  border-radius: inherit;
 }
 
 .table .rectangle-9 {
