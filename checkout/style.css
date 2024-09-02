@@ -1,0 +1,2324 @@
+.check-out {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.check-out .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.check-out .navbar {
+  position: absolute;
+  width: 1920px;
+  height: 52px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #000000;
+}
+
+.check-out .round-gala-logo {
+  width: 43px;
+  height: 43px;
+  top: 4px;
+  left: 8px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.check-out .text-wrapper {
+  left: 86px;
+  position: absolute;
+  top: 15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-2 {
+  left: 213px;
+  position: absolute;
+  top: 15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-3 {
+  left: 370px;
+  position: absolute;
+  top: 15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-4 {
+  position: absolute;
+  top: 15px;
+  left: 797px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-5 {
+  position: absolute;
+  top: 15px;
+  left: 980px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-6 {
+  position: absolute;
+  top: 15px;
+  left: 1852px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-7 {
+  position: absolute;
+  top: 15px;
+  left: 1718px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-8 {
+  left: 138px;
+  position: absolute;
+  top: 15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-9 {
+  left: 289px;
+  position: absolute;
+  top: 15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-10 {
+  position: absolute;
+  top: 15px;
+  left: 459px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-11 {
+  left: 941px;
+  position: absolute;
+  top: 15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-12 {
+  position: absolute;
+  top: 15px;
+  left: 1068px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .ellipse {
+  top: 21px;
+  left: 182px;
+  background-color: #23ff00;
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+}
+
+.check-out .ellipse-2 {
+  top: 21px;
+  left: 339px;
+  background-color: #23ff00;
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+}
+
+.check-out .ellipse-3 {
+  top: 21px;
+  left: 509px;
+  background-color: #23ff00;
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+}
+
+.check-out .line {
+  position: absolute;
+  width: 1px;
+  height: 16px;
+  top: 18px;
+  left: 200px;
+  object-fit: cover;
+}
+
+.check-out .img {
+  position: absolute;
+  width: 1px;
+  height: 16px;
+  top: 18px;
+  left: 358px;
+  object-fit: cover;
+}
+
+.check-out .line-2 {
+  position: absolute;
+  width: 1px;
+  height: 16px;
+  top: 18px;
+  left: 968px;
+  object-fit: cover;
+}
+
+.check-out .line-3 {
+  position: absolute;
+  width: 1px;
+  height: 16px;
+  top: 18px;
+  left: 1840px;
+  object-fit: cover;
+}
+
+.check-out .text-wrapper-13 {
+  position: absolute;
+  top: 83px;
+  left: 36px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .line-4 {
+  position: absolute;
+  width: 1884px;
+  height: 1px;
+  top: 134px;
+  left: 36px;
+  object-fit: cover;
+}
+
+.check-out .line-5 {
+  position: absolute;
+  width: 1px;
+  height: 635px;
+  top: 224px;
+  left: 1045px;
+  object-fit: cover;
+}
+
+.check-out .overlap {
+  position: absolute;
+  width: 798px;
+  height: 478px;
+  top: 223px;
+  left: 71px;
+}
+
+.check-out .overlap-group {
+  position: absolute;
+  width: 798px;
+  height: 478px;
+  top: 0;
+  left: 0;
+}
+
+.check-out .group {
+  position: absolute;
+  width: 466px;
+  height: 477px;
+  top: 1px;
+  left: 0;
+}
+
+.check-out .overlap-2 {
+  position: relative;
+  width: 408px;
+  height: 477px;
+  border-radius: 18px;
+}
+
+.check-out .ellipse-4 {
+  top: 34px;
+  left: 107px;
+  background-color: #0f7200;
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+}
+
+.check-out .rectangle {
+  position: absolute;
+  width: 408px;
+  height: 477px;
+  top: 0;
+  left: 0;
+  border-radius: 18px;
+  border: 3px solid;
+  border-color: #000000;
+}
+
+.check-out .text-wrapper-14 {
+  top: 27px;
+  left: 32px;
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-15 {
+  position: absolute;
+  top: 81px;
+  left: 32px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-16 {
+  position: absolute;
+  top: 112px;
+  left: 32px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-17 {
+  top: 114px;
+  left: 221px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-18 {
+  top: 134px;
+  left: 229px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-19 {
+  top: 152px;
+  left: 229px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-20 {
+  top: 191px;
+  left: 223px;
+  font-weight: 400;
+  color: #696969;
+  font-size: 8px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-21 {
+  top: 203px;
+  left: 221px;
+  font-weight: 400;
+  color: #696969;
+  font-size: 8px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-22 {
+  top: 215px;
+  left: 223px;
+  font-weight: 400;
+  color: #696969;
+  font-size: 8px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-23 {
+  position: absolute;
+  top: 115px;
+  left: 265px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ff0000;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-24 {
+  position: absolute;
+  top: 131px;
+  left: 32px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-25 {
+  position: absolute;
+  top: 150px;
+  left: 33px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-26 {
+  width: 125px;
+  top: 189px;
+  left: 32px;
+  font-weight: 400;
+  color: #696969;
+  font-size: 10px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-27 {
+  position: absolute;
+  width: 125px;
+  top: 201px;
+  left: 32px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #696969;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-28 {
+  position: absolute;
+  width: 125px;
+  top: 213px;
+  left: 32px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #696969;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-29 {
+  position: absolute;
+  top: 447px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-30 {
+  position: absolute;
+  top: 447px;
+  left: 152px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-31 {
+  top: 447px;
+  left: 205px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-32 {
+  position: absolute;
+  top: 423px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #0f7200;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-33 {
+  position: absolute;
+  top: 447px;
+  left: 293px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #0f7200;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-34 {
+  top: 423px;
+  left: 132px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-35 {
+  position: absolute;
+  top: 447px;
+  left: 102px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-36 {
+  position: absolute;
+  top: 447px;
+  left: 186px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-37 {
+  top: 447px;
+  left: 271px;
+  font-weight: 300;
+  color: #000000;
+  font-size: 10px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-38 {
+  top: 423px;
+  left: 109px;
+  font-weight: 300;
+  color: #0f7200;
+  font-size: 10px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-39 {
+  top: 447px;
+  left: 329px;
+  font-weight: 300;
+  color: #0f7200;
+  font-size: 10px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-40 {
+  top: 423px;
+  left: 178px;
+  font-weight: 300;
+  color: #000000;
+  font-size: 10px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-41 {
+  position: absolute;
+  top: 81px;
+  left: 265px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-42 {
+  position: absolute;
+  top: 81px;
+  left: 208px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .line-6 {
+  position: absolute;
+  width: 170px;
+  height: 1px;
+  top: 57px;
+  left: 32px;
+  object-fit: cover;
+}
+
+.check-out .line-7 {
+  position: absolute;
+  width: 171px;
+  height: 1px;
+  top: 102px;
+  left: 32px;
+  object-fit: cover;
+}
+
+.check-out .line-8 {
+  position: absolute;
+  width: 91px;
+  height: 1px;
+  top: 102px;
+  left: 258px;
+  object-fit: cover;
+}
+
+.check-out .line-9 {
+  position: absolute;
+  width: 55px;
+  height: 1px;
+  top: 102px;
+  left: 204px;
+  object-fit: cover;
+}
+
+.check-out .line-10 {
+  position: absolute;
+  width: 1px;
+  height: 290px;
+  top: 81px;
+  left: 203px;
+  object-fit: cover;
+}
+
+.check-out .line-11 {
+  position: absolute;
+  width: 1px;
+  height: 290px;
+  top: 81px;
+  left: 258px;
+  object-fit: cover;
+}
+
+.check-out .line-12 {
+  position: absolute;
+  width: 364px;
+  height: 1px;
+  top: 440px;
+  left: 22px;
+  object-fit: cover;
+}
+
+.check-out .line-13 {
+  position: absolute;
+  width: 1px;
+  height: 8px;
+  top: 450px;
+  left: 144px;
+  object-fit: cover;
+}
+
+.check-out .line-14 {
+  position: absolute;
+  width: 1px;
+  height: 8px;
+  top: 450px;
+  left: 284px;
+  object-fit: cover;
+}
+
+.check-out .line-15 {
+  position: absolute;
+  width: 1px;
+  height: 8px;
+  top: 426px;
+  left: 124px;
+  object-fit: cover;
+}
+
+.check-out .line-16 {
+  position: absolute;
+  width: 1px;
+  height: 8px;
+  top: 450px;
+  left: 198px;
+  object-fit: cover;
+}
+
+.check-out .line-17 {
+  position: absolute;
+  width: 134px;
+  height: 1px;
+  top: 182px;
+  left: 32px;
+  object-fit: cover;
+}
+
+.check-out .line-18 {
+  position: absolute;
+  width: 41px;
+  height: 1px;
+  top: 182px;
+  left: 212px;
+  object-fit: cover;
+}
+
+.check-out .group-wrapper {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 205px;
+  left: 108px;
+}
+
+.check-out .overlap-group-wrapper {
+  height: 6px;
+}
+
+.check-out .vector-wrapper {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  top: -1px;
+  left: -1px;
+  border-radius: 1px;
+  border: 1px solid;
+  border-color: #696969;
+}
+
+.check-out .vector {
+  position: absolute;
+  width: 5px;
+  height: 4px;
+  top: 1px;
+  left: 1px;
+}
+
+.check-out .div-wrapper {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 217px;
+  left: 67px;
+}
+
+.check-out .group-2 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 193px;
+  left: 123px;
+}
+
+.check-out .rectangle-2 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 114px;
+  left: 136px;
+  border-radius: 1px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.check-out .rectangle-3 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 133px;
+  left: 114px;
+  border-radius: 1px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.check-out .rectangle-4 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 152px;
+  left: 187px;
+  border-radius: 1px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.check-out .line-19 {
+  position: absolute;
+  width: 89px;
+  height: 1px;
+  top: 195px;
+  left: 30px;
+  object-fit: cover;
+}
+
+.check-out .line-20 {
+  position: absolute;
+  width: 73px;
+  height: 1px;
+  top: 207px;
+  left: 30px;
+  object-fit: cover;
+}
+
+.check-out .line-21 {
+  position: absolute;
+  width: 32px;
+  height: 1px;
+  top: 219px;
+  left: 30px;
+  object-fit: cover;
+}
+
+.check-out .text-wrapper-43 {
+  position: absolute;
+  top: 0;
+  left: 430px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-44 {
+  position: absolute;
+  top: 63px;
+  left: 430px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-45 {
+  top: 98px;
+  left: 430px;
+  font-size: 25px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-46 {
+  position: absolute;
+  top: 133px;
+  left: 430px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-47 {
+  top: 168px;
+  left: 430px;
+  font-size: 25px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-48 {
+  top: 203px;
+  left: 430px;
+  font-weight: 400;
+  font-size: 25px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-49 {
+  position: absolute;
+  top: 415px;
+  left: 430px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-50 {
+  position: absolute;
+  top: 448px;
+  left: 459px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer; /* Add cursor pointer */
+  background: none; /* Remove background */
+  border: none; /* Remove border */
+  padding: 0; /* Remove padding */
+  z-index: 3; /* Ensure it is above .rectangle-5 and .money-bill-wave */
+}
+
+.check-out .text-wrapper-51 {
+  top: 304px;
+  left: 430px;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-52 {
+  position: absolute;
+  top: 333px;
+  left: 430px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-53 {
+  position: absolute;
+  top: 370px;
+  left: 430px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .line-22 {
+  position: absolute;
+  width: 368px;
+  height: 1px;
+  top: 39px;
+  left: 430px;
+  object-fit: cover;
+}
+
+.check-out .line-23 {
+  position: absolute;
+  width: 316px;
+  height: 1px;
+  top: 291px;
+  left: 430px;
+  object-fit: cover;
+}
+
+.check-out .rectangle-5 {
+  position: absolute;
+  width: 72px;
+  height: 30px;
+  top: 443px;
+  left: 430px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #696969;
+}
+
+
+
+.check-out .money-bill-wave {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 450px;
+  left: 436px;
+}
+
+.check-out .overlap-3 {
+  position: absolute;
+  width: 70px;
+  height: 30px;
+  top: 443px;
+  left: 514px;
+  border-radius: 5px;
+}
+
+.check-out .text-wrapper-54 {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .rectangle-6 {
+  position: absolute;
+  width: 70px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #696969;
+}
+
+.check-out .credit-card {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 7px;
+  left: 7px;
+}
+
+.check-out .overlap-4 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  top: 443px;
+  left: 596px;
+  border-radius: 5px;
+}
+
+.check-out .text-wrapper-55 {
+  position: absolute;
+  top: 5px;
+  left: 29px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .rectangle-7 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #696969;
+}
+
+.check-out .hands-bubbles {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 6px;
+  left: 7px;
+}
+
+.check-out .overlap-5 {
+  position: absolute;
+  width: 97px;
+  height: 30px;
+  top: 329px;
+  left: 639px;
+  border-radius: 5px;
+}
+
+.check-out .text-wrapper-56 {
+  position: absolute;
+  top: 6px;
+  left: 15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .rectangle-8 {
+  position: absolute;
+  width: 97px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #696969;
+}
+
+.check-out .overlap-6 {
+  position: absolute;
+  width: 105px;
+  height: 30px;
+  top: 369px;
+  left: 639px;
+  border-radius: 5px;
+}
+
+.check-out .text-wrapper-57 {
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .rectangle-9 {
+  position: absolute;
+  width: 105px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #696969;
+}
+
+.check-out .text-wrapper-58 {
+  top: 370px;
+  left: 492px;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-59 {
+  top: 304px;
+  left: 539px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-60 {
+  position: absolute;
+  top: 334px;
+  left: 514px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-61 {
+  position: absolute;
+  top: 203px;
+  left: 610px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-62 {
+  position: absolute;
+  top: 168px;
+  left: 620px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-63 {
+  top: 63px;
+  left: 515px;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-64 {
+  top: 98px;
+  left: 579px;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-65 {
+  position: absolute;
+  top: 133px;
+  left: 650px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #0f7200;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .overlap-7 {
+  position: absolute;
+  width: 390px;
+  height: 600px;
+  top: 224px;
+  left: 1259px;
+  background-color: #d9d9d9;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.check-out .overlap-8 {
+  position: absolute;
+  width: 339px;
+  height: 222px;
+  top: 117px;
+  left: 26px;
+}
+
+.check-out .text-wrapper-66 {
+  top: 4px;
+  left: 0;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-67 {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-68 {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-69 {
+  position: absolute;
+  top: 91px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-70 {
+  width: 113px;
+  top: 114px;
+  left: 0;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-71 {
+  position: absolute;
+  top: 155px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-72 {
+  position: absolute;
+  top: 178px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-73 {
+  top: 45px;
+  left: 134px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-74 {
+  top: 45px;
+  left: 242px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-75 {
+  top: 68px;
+  left: 133px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-76 {
+  top: 68px;
+  left: 242px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-77 {
+  top: 91px;
+  left: 133px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-78 {
+  top: 91px;
+  left: 242px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-79 {
+  top: 123px;
+  left: 134px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-80 {
+  top: 123px;
+  left: 242px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-81 {
+  top: 155px;
+  left: 134px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-82 {
+  top: 155px;
+  left: 242px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-83 {
+  top: 178px;
+  left: 134px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-84 {
+  top: 178px;
+  left: 242px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-85 {
+  position: absolute;
+  top: 4px;
+  left: 125px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-86 {
+  top: 4px;
+  left: 238px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .overlap-9 {
+  position: absolute;
+  width: 339px;
+  height: 222px;
+  top: 0;
+  left: 0;
+}
+
+.check-out .line-24 {
+  position: absolute;
+  width: 339px;
+  height: 1px;
+  top: 36px;
+  left: 0;
+}
+
+.check-out .line-25 {
+  position: absolute;
+  width: 1px;
+  height: 222px;
+  top: 0;
+  left: 118px;
+}
+
+.check-out .line-26 {
+  position: absolute;
+  width: 1px;
+  height: 222px;
+  top: 0;
+  left: 227px;
+}
+
+.check-out .p {
+  position: absolute;
+  top: 480px;
+  left: 25px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-87 {
+  position: absolute;
+  top: 499px;
+  left: 25px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-88 {
+  position: absolute;
+  width: 160px;
+  top: 522px;
+  left: 25px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .round-gala-logo-2 {
+  width: 56px;
+  height: 56px;
+  top: 20px;
+  left: 41px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.check-out .text-wrapper-89 {
+  position: absolute;
+  top: 35px;
+  left: 117px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .line-27 {
+  position: absolute;
+  width: 357px;
+  height: 1px;
+  top: 94px;
+  left: 7px;
+}
+
+.check-out .line-28 {
+  position: absolute;
+  width: 339px;
+  height: 1px;
+  top: 356px;
+  left: 25px;
+}
+
+.check-out .line-29 {
+  position: absolute;
+  width: 339px;
+  height: 1px;
+  top: 458px;
+  left: 25px;
+}
+
+.check-out .text-wrapper-90 {
+  position: absolute;
+  top: 369px;
+  left: 25px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-91 {
+  position: absolute;
+  top: 369px;
+  left: 305px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-92 {
+  position: absolute;
+  top: 395px;
+  left: 345px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-93 {
+  top: 422px;
+  left: 335px;
+  font-weight: 400;
+  font-size: 7px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-94 {
+  position: absolute;
+  top: 379px;
+  left: 348px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-95 {
+  position: absolute;
+  top: 406px;
+  left: 299px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-96 {
+  position: absolute;
+  top: 433px;
+  left: 352px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-97 {
+  top: 392px;
+  left: 25px;
+  font-size: 15px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-98 {
+  top: 421px;
+  left: 25px;
+  font-weight: 600;
+  font-size: 15px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .text-wrapper-99 {
+  top: 421px;
+  left: 73px;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-100 {
+  top: 369px;
+  left: 108px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out .text-wrapper-101 {
+  position: absolute;
+  top: 392px;
+  left: 91px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.check-out .google-review-QR {
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  top: 488px;
+  left: 285px;
+  object-fit: cover;
+}
+.check-out .overlap-10 {
+  position: absolute;
+  width: 280px;
+  height: 100px;
+  top: 759px;
+  left: 76px;
+  border-radius: 7px;
+  border: 5px solid;
+  border-color: #ac0000;
+}
+
+.check-out .text-wrapper-102 {
+  position: absolute;
+  top: 29px;
+  left: 60px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  cursor: pointer; /* Add cursor pointer */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.check-out .text-wrapper-102:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.check-out .overlap-11 {
+  position: absolute;
+  width: 147px;
+  height: 100px;
+  top: 759px;
+  left: 383px;
+  border-radius: 7px;
+  border: 5px solid;
+  border-color: #575757;
+}
+
+.check-out .text-wrapper-103 {
+  position: absolute;
+  top: 29px;
+  left: 38px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  cursor: pointer; /* Add cursor pointer */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.check-out .text-wrapper-103:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.check-out .line-30 {
+  position: absolute;
+  width: 871px;
+  height: 1px;
+  top: 734px;
+  left: 71px;
+  object-fit: cover;
+}
+
+.check-out .overlap-10 {
+  position: absolute;
+  width: 280px;
+  height: 100px;
+  top: 759px;
+  left: 76px;
+  border-radius: 7px;
+  border: 5px solid;
+  border-color: #ac0000;
+  cursor: pointer; /* Add cursor pointer */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.check-out .overlap-10:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.check-out .text-wrapper-102 {
+  position: absolute;
+  top: 29px;
+  left: 60px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  background: none; /* Ensure background is none or white */
+}
+
+.check-out .overlap-11 {
+  position: absolute;
+  width: 147px;
+  height: 100px;
+  top: 759px;
+  left: 383px;
+  border-radius: 7px;
+  border: 5px solid;
+  border-color: #575757;
+  cursor: pointer; /* Add cursor pointer */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.check-out .overlap-11:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.check-out .text-wrapper-103 {
+  position: absolute;
+  top: 29px;
+  left: 38px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  background: none; /* Ensure background is none or white */
+}
+
+.text-wrapper-102, .text-wrapper-103 {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.text-wrapper-102:hover, .text-wrapper-103:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.card-button {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer; /* Add cursor pointer */
+  width: 70px; /* Ensure the button has the same width as the rectangle */
+  height: 30px; /* Ensure the button has the same height as the rectangle */
+}
+
+.card-button .text-wrapper-54 {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  z-index: 3; /* Ensure it is above other elements */
+}
+
+.card-button .rectangle-6 {
+  position: absolute;
+  width: 70px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #696969;
+  background-color: #ffffff; /* Add background color */
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+  z-index: 1; /* Set lower z-index */
+}
+
+.card-button:hover .rectangle-6 {
+  background-color: #e0e0e0; /* Add hover effect */
+}
+
+.card-button .credit-card {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 7px;
+  left: 7px;
+  z-index: 2; /* Ensure it is above .rectangle-6 */
+}
+
+.dishwashing-button {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer; /* Add cursor pointer */
+  width: 113px; /* Ensure the button has the same width as the rectangle */
+  height: 30px; /* Ensure the button has the same height as the rectangle */
+}
+
+.dishwashing-button .text-wrapper-55 {
+  position: absolute;
+  top: 5px;
+  left: 29px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  z-index: 3; /* Ensure it is above other elements */
+}
+
+.dishwashing-button .rectangle-7 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #696969;
+  background-color: #ffffff; /* Add background color */
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+  z-index: 1; /* Set lower z-index */
+}
+
+.dishwashing-button:hover .rectangle-7 {
+  background-color: #e0e0e0; /* Add hover effect */
+}
+
+.dishwashing-button .hands-bubbles {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 6px;
+  left: 7px;
+  z-index: 2; /* Ensure it is above .rectangle-7 */
+}
+
+.cash-button {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer; /* Add cursor pointer */
+  width: 72px; /* Ensure the button has the same width as the rectangle */
+  height: 30px; /* Ensure the button has the same height as the rectangle */
+}
+
+.cash-button .text-wrapper-50 {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  z-index: 3; /* Ensure it is above other elements */
+}
+
+.cash-button .rectangle-5 {
+  position: absolute;
+  width: 72px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #696969;
+  background-color: #ffffff; /* Add background color */
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+  z-index: 1; /* Set lower z-index */
+}
+
+.cash-button:hover .rectangle-5 {
+  background-color: #e0e0e0; /* Add hover effect */
+}
+
+.cash-button .money-bill-wave {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 7px;
+  left: 7px;
+  z-index: 2; /* Ensure it is above .rectangle-5 */
+}
+
+.print-check-button {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer; /* Add cursor pointer */
+  width: 97px; /* Ensure the button has the same width as the rectangle */
+  height: 30px; /* Ensure the button has the same height as the rectangle */
+}
+
+.print-check-button .text-wrapper-56 {
+  position: absolute;
+  top: 6px;
+  left: 15px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  z-index: 3; /* Ensure it is above other elements */
+}
+
+.print-check-button .rectangle-8 {
+  position: absolute;
+  width: 97px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #696969;
+  background-color: #ffffff; /* Add background color */
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+  z-index: 1; /* Set lower z-index */
+}
+
+.print-check-button:hover .rectangle-8 {
+  background-color: #e0e0e0; /* Add hover effect */
+}
+
+.apply-discount-button {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer; /* Add cursor pointer */
+  width: 105px; /* Ensure the button has the same width as the rectangle */
+  height: 30px; /* Ensure the button has the same height as the rectangle */
+}
+
+.apply-discount-button .text-wrapper-57 {
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  z-index: 3; /* Ensure it is above other elements */
+}
+
+.apply-discount-button .rectangle-9 {
+  position: absolute;
+  width: 105px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #696969;
+  background-color: #ffffff; /* Add background color */
+  transition: background-color 0.3s; /* Add transition for smooth hover effect */
+  z-index: 1; /* Set lower z-index */
+}
+
+.apply-discount-button:hover .rectangle-9 {
+  background-color: #e0e0e0; /* Add hover effect */
+}
