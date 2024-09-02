@@ -291,6 +291,15 @@
   object-fit: cover;
 }
 
+.element .line-7 {
+  position: absolute;
+  width: 1px;
+  height: 17px;
+  top: 18px;
+  left: 1596px;
+  object-fit: cover;
+}
+
 .element .power {
   position: absolute;
   width: 24px;
@@ -305,6 +314,19 @@
   height: 24px;
   top: 14px;
   left: 1556px;
+}
+
+.element .text-wrapper-user {
+  position: absolute;
+  top: 15px;
+  left: 535px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
 }
 
 .element .overlap {
@@ -388,12 +410,10 @@
   white-space: nowrap;
 }
 
-.element .line-7 {
+.element .line-user {
   position: absolute;
-  width: 272px;
-  height: 1px;
-  top: 682px;
-  left: 36px;
+  top: 17px;
+  left: 528px;
   object-fit: cover;
 }
 
