@@ -48,7 +48,7 @@
           <img class="line-6" src="https://c.animaapp.com/dTPxXaJm/img/line-145.svg" alt="Line 6" />
           <img class="line-user" src="https://c.animaapp.com/dTPxXaJm/img/line-145.svg" alt="Line user" />
           <img id="power-icon" class="power" src="https://c.animaapp.com/dTPxXaJm/img/power-1.svg" alt="Power Icon" onclick="showLockscreen()" />
-          <img class="total" src="https://c.animaapp.com/dTPxXaJm/img/total-1.svg" alt="Total Icon" />
+          <img id="total-icon" class="total" src="https://c.animaapp.com/dTPxXaJm/img/total-1.svg" alt="Total Icon" onclick="showGrandTotal()" />
         </div>
 
         <!-- Main Content -->
@@ -124,6 +124,37 @@
 
     <!-- JavaScript for Lock Screen Functionality -->
     <script>
+    function showGrandTotal() {
+        // Fetch and load grandtotal.html
+        fetch('grandtotal/grandtotal.html')
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Network response was not ok');
+            }
+            return response.text();
+          })
+          .then(data => {
+            const grandTotalContainer = document.createElement('div');
+            grandTotalContainer.innerHTML = data;
+            grandTotalContainer.id = 'grand-total-container';
+            grandTotalContainer.style.position = 'fixed';
+            grandTotalContainer.style.top = '0';
+            grandTotalContainer.style.left = '0';
+            grandTotalContainer.style.width = '100%';
+            grandTotalContainer.style.height = '100%';
+            grandTotalContainer.style.backgroundColor = 'rgba(0, 0, 0, 0)'; // Optional: to add a semi-transparent background
+            grandTotalContainer.style.zIndex = '1000'; // Ensure it is on top
+            document.body.appendChild(grandTotalContainer);
+
+            // Load grandtotal/style.css
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = 'grandtotal/style.css';
+            document.head.appendChild(link);
+          })
+          .catch(error => console.error('Error loading grandtotal.html:', error));
+      }
+
   // Function to load CSS
   function loadCSS(url) {
     const link = document.createElement('link');
